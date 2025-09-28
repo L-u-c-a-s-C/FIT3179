@@ -3,7 +3,7 @@
 "title": {
     "text": "Where do Australia's threatened flora and fauna live?",
     "fontSize": 18,
-    "subtitle": "Data, species count in each area, last updated 2023",
+    "subtitle": "Data last updated 2023",
     "subtitleFontSize": 14
 },
 
@@ -91,8 +91,8 @@
         },
 
         "tooltip": [
-            {"field": "properties.COUNT_", "type": "quantitative", "title": "Count"},
-            {"field": "properties.COMMON_NAM", "type":"nominal", "title": "Species"}
+            {"field": "properties.COUNT_", "type": "quantitative", "title": "Different species"},
+            {"field": "properties.COMMON_NAM", "type":"nominal", "title": "Species observed"}
         ]
     }
 },
@@ -107,6 +107,20 @@
         "type": "geoshape", 
         "fill": null, 
         "stroke": "lightgray"
+    }
+},
+
+{
+    "mark": {
+        "type": "text"
+    },
+
+    "encoding": {
+        "x": {"value": 700},
+        "y": {"value": 500},
+        "text": {
+            "value": "Click an area to see which species were observed"
+        }
     }
 }
 
