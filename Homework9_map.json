@@ -1,6 +1,12 @@
 {
 "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-"title": "Where do Australia's threatened flora and fauna live?",
+"title": {
+    "text": "Where do Australia's threatened flora and fauna live?",
+    "fontSize": 18,
+    "subtitle": "Data, species count in each area, last updated 2023",
+    "subtitleFontSize": 14
+},
+
 "width": 850,
 "height": 650,
 "projection": {"type": "equirectangular"},
@@ -61,7 +67,9 @@
 
             "legend": {
                 "title": ["Number of different", "species observed"],
-                "labelExpr": "datum.label == '7' ? '≥ 7' : datum.label"
+                "titleFontSize": 14,
+                "labelExpr": "datum.label == '7' ? '≥ 7' : datum.label",
+                "labelFontSize": 14
             }
         },
 
@@ -91,7 +99,7 @@
 
 {
     "data": {
-        "url": "https://raw.githubusercontent.com/L-u-c-a-s-C/FIT3179/refs/heads/main/Week9_Homework/tsap_densities_first_common.json",
+        "url": "https://raw.githubusercontent.com/L-u-c-a-s-C/FIT3179/refs/heads/main/Week9_Homework/australia_with_graticules_5.json",
         "format": {"type": "topojson", "feature": "ne_110m_graticules_5"}
     },
 
