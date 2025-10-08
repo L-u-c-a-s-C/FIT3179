@@ -1,0 +1,187 @@
+{
+"$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+"title": "Threatened species monitoring sites",
+"width": "container",
+"height": "container",
+
+"projection": {"type": "equirectangular"},
+
+"config": {
+    "title": {
+        "fontSize": 15,
+        "fontWeight":"bold"
+    },
+
+    "legend": {
+        "titleFontSize": 12,
+        "titleFontWeight": "bold",
+        "labelFontSize": 12
+    },
+
+    "view": {
+    "stroke": "black",
+    "fill": "#def3f6"
+  }
+},
+
+"data": {
+    "url": "https://raw.githubusercontent.com/L-u-c-a-s-C/FIT3179/refs/heads/main/tsx_taxonomic_clipped.json",
+    "format": {"type": "topojson", "feature": "tsx_taxonomic_clipped"}
+},
+
+"params": [
+    { 
+        "name": "Taxonomic_Filter",
+        "bind": {
+            "input": "select",
+            "options": [
+                null,
+                "Birds",
+                "Mammals",
+                "Plants",
+                "Amphibians"
+            ],
+
+            "labels": [
+                "All",
+                "Birds",
+                "Mammals",
+                "Plants",
+                "Amphibians"
+            ],
+
+            "name": "Select taxonomic group: "
+        }
+    }
+],
+
+"transform": [
+    {"filter": "Taxonomic_Filter == null || datum.properties.TaxonomicGroup == Taxonomic_Filter"}
+],
+
+"layer": [
+{   
+    "data": {
+        "url": "https://raw.githubusercontent.com/L-u-c-a-s-C/FIT3179/refs/heads/main/australia_simplified.json",
+        "format": {"type": "topojson", "feature": "states_and_territories"}
+    },
+
+    "mark": {
+        "type": "geoshape",
+        "fill": "#ffffd9",
+        "stroke": "black",
+        "strokeWidth":0.2
+    }
+},
+
+{   
+    "mark": "circle",
+
+    "encoding": {
+        "longitude": {"field": "properties.RegionCentroidLongitude", "type": "quantitative"},
+        "latitude": {"field": "properties.RegionCentroidLatitude", "type": "quantitative"},
+
+        "size": {"value": 30},
+
+        "color": {
+            "field": "properties.TaxonomicGroup",
+            "type": "nominal",
+            "scale": {
+                "domain": [
+                    "Birds",
+                    "Mammals",
+                    "Plants",
+                    "Amphibians"
+                ],
+
+                "range": [
+                    "#984ea3",
+                    "#e41a1c",
+                    "#4daf4a",
+                    "#377eb8"
+                ]
+            },
+
+            "legend": {"title": "Taxonomic Group"}
+        },
+
+        "tooltip": [
+            {"field": "properties.CommonName", "type": "nominal", "title": "Species monitored"},
+            {"field": "properties.TaxonomicGroup", "type": "nominal", "title": "Taxonomic group"}
+            
+        ]  
+    }
+},
+
+{
+    "mark": "text",
+
+    "data": {
+        "values": [
+            {"x": 129, "y":-36, "text": ["The majority of monitoring", "sites are for bird species"]}
+        ]
+    },
+
+    "encoding":{
+        "longitude":{"field": "x"},
+        "latitude":{"field": "y"},
+        "text":{"field": "text"}
+    }
+},
+
+{
+    "mark": "rect",
+
+    "data": {
+        "values": [{"long1": 123, "long2": 135, "lat1": -35, "lat2": -38}]
+    },
+
+    "encoding": {
+        "longitude":{"field":"long1"},
+        "longitude2":{"field":"long2"},
+        "latitude":{"field":"lat1"},
+        "latitude2":{"field":"lat2"},
+
+        "opacity": {"value": 0.2},
+        "color": {"value": "#bdbdbd"}
+    }
+},
+
+{
+    "mark": "text",
+
+    "data": {
+        "values": [
+            {"x": 122, "y":-10, "text": ["Dots represent monitoring sites,", "studying one species each"]}
+        ]
+    },
+
+    "encoding":{
+        "longitude":{"field": "x"},
+        "latitude":{"field": "y"},
+        "text":{"field": "text"}
+    }
+},
+
+{
+    "mark": "rect",
+
+    "data": {
+        "values": [{"long1": 115, "long2": 129, "lat1": -9, "lat2": -12}]
+    },
+
+    "encoding": {
+        "longitude":{"field":"long1"},
+        "longitude2":{"field":"long2"},
+        "latitude":{"field":"lat1"},
+        "latitude2":{"field":"lat2"},
+
+        "opacity": {"value": 0.2},
+        "color": {"value": "#bdbdbd"}
+    }
+}
+
+]
+
+}
+

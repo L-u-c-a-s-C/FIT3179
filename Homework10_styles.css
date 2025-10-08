@@ -1,0 +1,39 @@
+.page {
+  width: 1200px;
+  background-color: white;
+  margin: auto;
+
+  padding: 20px;
+
+}
+
+.pure-g {
+    margin-bottom: 0px;
+}
+
+h2 {
+  font-weight: 600;
+  text-align: center;
+}
+
+.vis-container {
+    width: 600px;
+    height: 500px;
+}
+
+#vis1 .vega-bindings {
+    position: absolute;
+    top: 460px;
+    left: 20px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+#vis2 .vega-bindings {
+    position: absolute;
+    top: 460px;
+    left: 20px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
