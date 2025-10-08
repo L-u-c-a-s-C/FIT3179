@@ -49,9 +49,15 @@
     var tsap_map = "./Homework10_tsap_map.json";
     var tsx_map = "./Homework10_tsx_map.json";
 
-    vegaEmbed('#vis1', tsap_map, { "actions": false });
+    vegaEmbed('#vis1', tsap_map, { 
+      "actions": false,
+      tooltip: {theme: 'custom'}
+    })
 
-    vegaEmbed('#vis2', tsx_map, { "actions": false });
+    vegaEmbed('#vis2', tsx_map, { 
+      "actions": false,
+      tooltip: {theme: 'custom'}
+    });
 
   </script>
 </body>

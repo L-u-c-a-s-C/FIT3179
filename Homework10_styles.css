@@ -37,3 +37,13 @@ h2 {
     font-weight: bold;
 }
 
+.vg-tooltip .key {
+  color: black !important;
+}
+
+.vg-tooltip .value {
+  color:gray !important;
+}
+
+
+
