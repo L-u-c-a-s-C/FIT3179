@@ -21,9 +21,9 @@ Malleefowl,Orange-bellied Parrot,33
 Orange-bellied Parrot,Malleefowl,33
 Red Goshawk,Red Goshawk,323
 Olive Ridley Turtle,Olive Ridley Turtle,115
-Koala (combined populations of Queensland,Koala (combined populations of Queensland,470
-Koala (combined populations of Queensland,Regent Honeyeater,278
-Regent Honeyeater,Koala (combined populations of Queensland,278
+Koala,Koala,470
+Koala,Regent Honeyeater,278
+Regent Honeyeater,Koala,278
 Australasian Bittern,Regent Honeyeater,280
 Regent Honeyeater,Australasian Bittern,280
 Australasian Bittern,Swift Parrot,358
@@ -50,14 +50,14 @@ Plains-wanderer,Malleefowl,62
 Eastern Hooded Plover,Eastern Hooded Plover,289
 Australian Sea-lion,Malleefowl,44
 Malleefowl,Australian Sea-lion,44
-Australasian Bittern,Koala (combined populations of Queensland,222
-Koala (combined populations of Queensland,Australasian Bittern,222
+Australasian Bittern,Koala,222
+Koala,Australasian Bittern,222
 Green Turtle,Northern Quoll,90
 Northern Quoll,Green Turtle,90
 Northern Quoll,Red Goshawk,165
 Red Goshawk,Northern Quoll,165
-Koala (combined populations of Queensland,Red Goshawk,221
-Red Goshawk,Koala (combined populations of Queensland,221
+Koala,Red Goshawk,221
+Red Goshawk,Koala,221
 Malleefowl,Swift Parrot,59
 Swift Parrot,Malleefowl,59
 Growling Grass Frog,Malleefowl,85
@@ -76,8 +76,8 @@ Australian Sea-lion,Green Turtle,20
 Green Turtle,Australian Sea-lion,20
 Growling Grass Frog,Swift Parrot,202
 Swift Parrot,Growling Grass Frog,202
-Koala (combined populations of Queensland,Swift Parrot,290
-Swift Parrot,Koala (combined populations of Queensland,290
+Koala,Swift Parrot,290
+Swift Parrot,Koala,290
 Malleefowl,Regent Honeyeater,29
 Regent Honeyeater,Malleefowl,29
 Green Turtle,Malleefowl,18
@@ -96,20 +96,20 @@ Australian Sea-lion,Eastern Curlew,39
 Eastern Curlew,Australian Sea-lion,39
 Eastern Curlew,Plains-wanderer,42
 Plains-wanderer,Eastern Curlew,42
-Eastern Curlew,Koala (combined populations of Queensland,143
-Koala (combined populations of Queensland,Eastern Curlew,143
+Eastern Curlew,Koala,143
+Koala,Eastern Curlew,143
 Australian Sea-lion,Carnaby's Black Cockatoo,43
 Carnaby's Black Cockatoo,Australian Sea-lion,43
 Carnaby's Black Cockatoo,Eastern Curlew,35
 Eastern Curlew,Carnaby's Black Cockatoo,35
-Koala (combined populations of Queensland,Plains-wanderer,21
-Plains-wanderer,Koala (combined populations of Queensland,21
+Koala,Plains-wanderer,21
+Plains-wanderer,Koala,21
 Brush-tailed Rock-wallaby,Brush-tailed Rock-wallaby,101
-Brush-tailed Rock-wallaby,Koala (combined populations of Queensland,95
-Koala (combined populations of Queensland,Brush-tailed Rock-wallaby,95
+Brush-tailed Rock-wallaby,Koala,95
+Koala,Brush-tailed Rock-wallaby,95
 New Holland Mouse,New Holland Mouse,144
-Koala (combined populations of Queensland,New Holland Mouse,106
-New Holland Mouse,Koala (combined populations of Queensland,106
+Koala,New Holland Mouse,106
+New Holland Mouse,Koala,106
 Growling Grass Frog,Plains-wanderer,136
 Plains-wanderer,Growling Grass Frog,136
 Australian Sea-lion,Plains-wanderer,13
@@ -122,12 +122,12 @@ Plains-wanderer,Red Goshawk,1
 Red Goshawk,Plains-wanderer,1
 Plains-wanderer,Swift Parrot,93
 Swift Parrot,Plains-wanderer,93
-Koala (combined populations of Queensland,Malleefowl,29
-Malleefowl,Koala (combined populations of Queensland,29
+Koala,Malleefowl,29
+Malleefowl,Koala,29
 Growling Grass Frog,Southern Bent-wing Bat,66
 Southern Bent-wing Bat,Growling Grass Frog,66
-Growling Grass Frog,Koala (combined populations of Queensland,28
-Koala (combined populations of Queensland,Growling Grass Frog,28
+Growling Grass Frog,Koala,28
+Koala,Growling Grass Frog,28
 Eastern Curlew,Green Turtle,147
 Green Turtle,Eastern Curlew,147
 Eastern Curlew,Northern Quoll,113
@@ -154,8 +154,8 @@ Carnaby's Black Cockatoo,Green Turtle,32
 Green Turtle,Carnaby's Black Cockatoo,32
 Carnaby's Black Cockatoo,Malleefowl,65
 Malleefowl,Carnaby's Black Cockatoo,65
-Koala (combined populations of Queensland,Northern Quoll,119
-Northern Quoll,Koala (combined populations of Queensland,119
+Koala,Northern Quoll,119
+Northern Quoll,Koala,119
 Eastern Curlew,Orange-bellied Parrot,77
 Orange-bellied Parrot,Eastern Curlew,77
 Southern Bent-wing Bat,Swift Parrot,38
@@ -189,8 +189,8 @@ Eastern Curlew,Regent Honeyeater,135
 Regent Honeyeater,Eastern Curlew,135
 Eastern Curlew,Swift Parrot,157
 Swift Parrot,Eastern Curlew,157
-Koala (combined populations of Queensland,Native Guava,178
-Native Guava,Koala (combined populations of Queensland,178
+Koala,Native Guava,178
+Native Guava,Koala,178
 Native Guava,Northern Quoll,41
 Northern Quoll,Native Guava,41
 Native Guava,Red Goshawk,110
@@ -215,10 +215,10 @@ New Holland Mouse,Swift Parrot,116
 Swift Parrot,New Holland Mouse,116
 Brush-tailed Rock-wallaby,New Holland Mouse,38
 New Holland Mouse,Brush-tailed Rock-wallaby,38
-Green Turtle,Koala (combined populations of Queensland,85
-Koala (combined populations of Queensland,Green Turtle,85
-Koala (combined populations of Queensland,Olive Ridley Turtle,33
-Olive Ridley Turtle,Koala (combined populations of Queensland,33
+Green Turtle,Koala,85
+Koala,Green Turtle,85
+Koala,Olive Ridley Turtle,33
+Olive Ridley Turtle,Koala,33
 Eastern Hooded Plover,Southern Bent-wing Bat,26
 Southern Bent-wing Bat,Eastern Hooded Plover,26
 Native Guava,New Holland Mouse,45
@@ -247,8 +247,8 @@ Brush-tailed Rock-wallaby,Growling Grass Frog,5
 Growling Grass Frog,Brush-tailed Rock-wallaby,5
 Brush-tailed Rock-wallaby,Native Guava,33
 Native Guava,Brush-tailed Rock-wallaby,33
-Eastern Hooded Plover,Koala (combined populations of Queensland,23
-Koala (combined populations of Queensland,Eastern Hooded Plover,23
+Eastern Hooded Plover,Koala,23
+Koala,Eastern Hooded Plover,23
 Brush-tailed Rock-wallaby,Northern Quoll,13
 Northern Quoll,Brush-tailed Rock-wallaby,13
 Green Turtle,Native Guava,32
