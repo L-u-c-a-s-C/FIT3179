@@ -1,54 +1,26 @@
 Species1,Species2,Count
-Pygmy Blue-tongue Lizard,Pygmy Blue-tongue Lizard,6
-Northern Brushtail Possum,Northern Brushtail Possum,85
 Carnaby's Black Cockatoo,Carnaby's Black Cockatoo,141
-Central Rock-rat,Central Rock-rat,5
 Regent Honeyeater,Regent Honeyeater,437
-Mountain Pygmy-possum,Mountain Pygmy-possum,7
-Mountain Pygmy-possum,Regent Honeyeater,3
-Regent Honeyeater,Mountain Pygmy-possum,3
 Green Turtle,Green Turtle,301
 Green Turtle,Regent Honeyeater,73
 Regent Honeyeater,Green Turtle,73
-Leadbeater's Possum,Leadbeater's Possum,9
-Leadbeater's Possum,Regent Honeyeater,5
-Regent Honeyeater,Leadbeater's Possum,5
 Swift Parrot,Swift Parrot,593
 Regent Honeyeater,Swift Parrot,319
 Swift Parrot,Regent Honeyeater,319
 Growling Grass Frog,Growling Grass Frog,358
 Growling Grass Frog,Regent Honeyeater,97
 Regent Honeyeater,Growling Grass Frog,97
-Waddy,Waddy,7
-Giant Freshwater Crayfish,Giant Freshwater Crayfish,21
 Australasian Bittern,Australasian Bittern,660
-South-eastern Red-tailed Black-Cockatoo,South-eastern Red-tailed Black-Cockatoo,85
-Murray Hardyhead,Murray Hardyhead,55
-Yinnietharra Rock-Dragon,Yinnietharra Rock-Dragon,1
-Chuditch,Chuditch,96
 Northern Quoll,Northern Quoll,247
-Eastern Quoll,Eastern Quoll,45
-Adorned Delma,Adorned Delma,37
 Malleefowl,Malleefowl,280
-Greater Bilby,Greater Bilby,88
-Greater Bilby,Malleefowl,21
-Malleefowl,Greater Bilby,21
 Southern Bent-wing Bat,Southern Bent-wing Bat,99
 Malleefowl,Southern Bent-wing Bat,24
 Southern Bent-wing Bat,Malleefowl,24
-Numbat,Numbat,21
-Malleefowl,Numbat,12
-Numbat,Malleefowl,12
 Orange-bellied Parrot,Orange-bellied Parrot,208
 Malleefowl,Orange-bellied Parrot,33
 Orange-bellied Parrot,Malleefowl,33
-King Blue-grass,King Blue-grass,6
-Lord Howe Island Phasmid,Lord Howe Island Phasmid,2
 Red Goshawk,Red Goshawk,323
-Stocky Galaxias,Stocky Galaxias,1
 Olive Ridley Turtle,Olive Ridley Turtle,115
-Great Desert Skink,Great Desert Skink,19
-MacDonnell Ranges Cycad,MacDonnell Ranges Cycad,5
 Koala (combined populations of Queensland,Koala (combined populations of Queensland,470
 Koala (combined populations of Queensland,Regent Honeyeater,278
 Regent Honeyeater,Koala (combined populations of Queensland,278
@@ -60,9 +32,6 @@ Australasian Bittern,Malleefowl,118
 Malleefowl,Australasian Bittern,118
 Australasian Bittern,Growling Grass Frog,245
 Growling Grass Frog,Australasian Bittern,245
-Black-eared Miner,Black-eared Miner,24
-Australasian Bittern,Black-eared Miner,8
-Black-eared Miner,Australasian Bittern,8
 Australasian Bittern,Southern Bent-wing Bat,68
 Southern Bent-wing Bat,Australasian Bittern,68
 Australasian Bittern,Orange-bellied Parrot,153
@@ -78,56 +47,23 @@ Australasian Bittern,Plains-wanderer,143
 Plains-wanderer,Australasian Bittern,143
 Malleefowl,Plains-wanderer,62
 Plains-wanderer,Malleefowl,62
-Arckaringa Daisy,Arckaringa Daisy,1
-Night Parrot,Night Parrot,31
-Princess Parrot,Princess Parrot,51
-Freshwater Sawfish,Freshwater Sawfish,92
-Golden-shouldered Parrot,Golden-shouldered Parrot,7
-Southern Corroboree Frog,Southern Corroboree Frog,5
-Spectacled Flying-fox,Spectacled Flying-fox,27
-Redfin Blue Eye,Redfin Blue Eye,2
-Kangaroo Island Echidna,Kangaroo Island Echidna,13
 Eastern Hooded Plover,Eastern Hooded Plover,289
 Australian Sea-lion,Malleefowl,44
 Malleefowl,Australian Sea-lion,44
 Australasian Bittern,Koala (combined populations of Queensland,222
 Koala (combined populations of Queensland,Australasian Bittern,222
-Australasian Bittern,Kangaroo Island Echidna,7
-Kangaroo Island Echidna,Australasian Bittern,7
-Chuditch,Greater Bilby,4
-Greater Bilby,Chuditch,4
 Green Turtle,Northern Quoll,90
 Northern Quoll,Green Turtle,90
-King Blue-grass,Northern Quoll,4
-Northern Quoll,King Blue-grass,4
-Freshwater Sawfish,Northern Quoll,50
-Northern Quoll,Freshwater Sawfish,50
-Northern Quoll,Spectacled Flying-fox,15
-Spectacled Flying-fox,Northern Quoll,15
-Green Turtle,Lord Howe Island Phasmid,1
-Lord Howe Island Phasmid,Green Turtle,1
-Red Goshawk,Waddy,2
-Waddy,Red Goshawk,2
 Northern Quoll,Red Goshawk,165
 Red Goshawk,Northern Quoll,165
-Great Desert Skink,Red Goshawk,3
-Red Goshawk,Great Desert Skink,3
-Greater Bilby,Red Goshawk,7
-Red Goshawk,Greater Bilby,7
 Koala (combined populations of Queensland,Red Goshawk,221
 Red Goshawk,Koala (combined populations of Queensland,221
 Malleefowl,Swift Parrot,59
 Swift Parrot,Malleefowl,59
-Great Desert Skink,Malleefowl,4
-Malleefowl,Great Desert Skink,4
 Growling Grass Frog,Malleefowl,85
 Malleefowl,Growling Grass Frog,85
-Black-eared Miner,Plains-wanderer,6
-Plains-wanderer,Black-eared Miner,6
 Orange-bellied Parrot,Regent Honeyeater,55
 Regent Honeyeater,Orange-bellied Parrot,55
-Murray Hardyhead,Orange-bellied Parrot,18
-Orange-bellied Parrot,Murray Hardyhead,18
 Orange-bellied Parrot,Swift Parrot,77
 Swift Parrot,Orange-bellied Parrot,77
 Growling Grass Frog,Orange-bellied Parrot,106
@@ -136,214 +72,76 @@ Orange-bellied Parrot,Southern Bent-wing Bat,45
 Southern Bent-wing Bat,Orange-bellied Parrot,45
 Australian Sea-lion,Orange-bellied Parrot,23
 Orange-bellied Parrot,Australian Sea-lion,23
-Maugean Skate,Maugean Skate,5
-Maugean Skate,Orange-bellied Parrot,5
-Orange-bellied Parrot,Maugean Skate,5
 Australian Sea-lion,Green Turtle,20
 Green Turtle,Australian Sea-lion,20
-Australian Sea-lion,Kangaroo Island Echidna,6
-Kangaroo Island Echidna,Australian Sea-lion,6
-Freshwater Sawfish,Red Goshawk,34
-Red Goshawk,Freshwater Sawfish,34
-Red Goshawk,Spectacled Flying-fox,21
-Spectacled Flying-fox,Red Goshawk,21
-Northern Brushtail Possum,Red Goshawk,43
-Red Goshawk,Northern Brushtail Possum,43
-Giant Freshwater Crayfish,Swift Parrot,19
-Swift Parrot,Giant Freshwater Crayfish,19
-Mountain Pygmy-possum,Swift Parrot,1
-Swift Parrot,Mountain Pygmy-possum,1
-Eastern Quoll,Swift Parrot,43
-Swift Parrot,Eastern Quoll,43
-Swan Galaxias,Swan Galaxias,8
-Swan Galaxias,Swift Parrot,8
-Swift Parrot,Swan Galaxias,8
-Leadbeater's Possum,Swift Parrot,7
-Swift Parrot,Leadbeater's Possum,7
 Growling Grass Frog,Swift Parrot,202
 Swift Parrot,Growling Grass Frog,202
-Giant Gippsland Earthworm,Giant Gippsland Earthworm,9
-Giant Gippsland Earthworm,Swift Parrot,9
-Swift Parrot,Giant Gippsland Earthworm,9
 Koala (combined populations of Queensland,Swift Parrot,290
 Swift Parrot,Koala (combined populations of Queensland,290
 Malleefowl,Regent Honeyeater,29
 Regent Honeyeater,Malleefowl,29
-Malleefowl,South-eastern Red-tailed Black-Cockatoo,33
-South-eastern Red-tailed Black-Cockatoo,Malleefowl,33
 Green Turtle,Malleefowl,18
 Malleefowl,Green Turtle,18
-Malleefowl,Murray Hardyhead,25
-Murray Hardyhead,Malleefowl,25
-Chuditch,Malleefowl,37
-Malleefowl,Chuditch,37
 Australasian Bittern,Eastern Hooded Plover,192
 Eastern Hooded Plover,Australasian Bittern,192
 Australasian Bittern,Carnaby's Black Cockatoo,59
 Carnaby's Black Cockatoo,Australasian Bittern,59
-South-eastern Red-tailed Black-Cockatoo,Swift Parrot,33
-Swift Parrot,South-eastern Red-tailed Black-Cockatoo,33
-Growling Grass Frog,South-eastern Red-tailed Black-Cockatoo,50
-South-eastern Red-tailed Black-Cockatoo,Growling Grass Frog,50
-South-eastern Red-tailed Black-Cockatoo,Southern Bent-wing Bat,37
-Southern Bent-wing Bat,South-eastern Red-tailed Black-Cockatoo,37
-Short-nosed Seasnake,Short-nosed Seasnake,50
-Green Turtle,Short-nosed Seasnake,48
-Short-nosed Seasnake,Green Turtle,48
-Grey Nurse Shark (east coast population),Grey Nurse Shark (east coast population),25
-Green Turtle,Grey Nurse Shark (east coast population),25
-Grey Nurse Shark (east coast population),Green Turtle,25
 Green Turtle,Olive Ridley Turtle,112
 Olive Ridley Turtle,Green Turtle,112
-Freshwater Sawfish,Green Turtle,65
-Green Turtle,Freshwater Sawfish,65
 Eastern Curlew,Red Goshawk,124
 Red Goshawk,Eastern Curlew,124
 Eastern Curlew,Malleefowl,51
 Malleefowl,Eastern Curlew,51
-Eastern Curlew,Greater Bilby,30
-Greater Bilby,Eastern Curlew,30
 Australian Sea-lion,Eastern Curlew,39
 Eastern Curlew,Australian Sea-lion,39
 Eastern Curlew,Plains-wanderer,42
 Plains-wanderer,Eastern Curlew,42
-Eastern Curlew,Night Parrot,2
-Night Parrot,Eastern Curlew,2
 Eastern Curlew,Koala (combined populations of Queensland,143
 Koala (combined populations of Queensland,Eastern Curlew,143
-Greater Bilby,Northern Brushtail Possum,14
-Northern Brushtail Possum,Greater Bilby,14
-Black-eared Miner,Murray Hardyhead,6
-Murray Hardyhead,Black-eared Miner,6
-Black-eared Miner,Malleefowl,20
-Malleefowl,Black-eared Miner,20
 Australian Sea-lion,Carnaby's Black Cockatoo,43
 Carnaby's Black Cockatoo,Australian Sea-lion,43
 Carnaby's Black Cockatoo,Eastern Curlew,35
 Eastern Curlew,Carnaby's Black Cockatoo,35
-Western Ground Parrot,Western Ground Parrot,5
-Carnaby's Black Cockatoo,Western Ground Parrot,4
-Western Ground Parrot,Carnaby's Black Cockatoo,4
-Wongan Eriostemon,Wongan Eriostemon,2
-Carnaby's Black Cockatoo,Wongan Eriostemon,2
-Wongan Eriostemon,Carnaby's Black Cockatoo,2
-Christmas Island Goshawk,Christmas Island Goshawk,1
-Christmas Island Goshawk,Green Turtle,1
-Green Turtle,Christmas Island Goshawk,1
-Christmas Island Goshawk,Olive Ridley Turtle,1
-Olive Ridley Turtle,Christmas Island Goshawk,1
 Koala (combined populations of Queensland,Plains-wanderer,21
 Plains-wanderer,Koala (combined populations of Queensland,21
-Plains-wanderer,Princess Parrot,1
-Princess Parrot,Plains-wanderer,1
-Plains-wanderer,Pygmy Blue-tongue Lizard,2
-Pygmy Blue-tongue Lizard,Plains-wanderer,2
 Brush-tailed Rock-wallaby,Brush-tailed Rock-wallaby,101
 Brush-tailed Rock-wallaby,Koala (combined populations of Queensland,95
 Koala (combined populations of Queensland,Brush-tailed Rock-wallaby,95
-Australian Sea-lion,Western Ground Parrot,3
-Western Ground Parrot,Australian Sea-lion,3
-Night Parrot,Waddy,4
-Waddy,Night Parrot,4
-Night Parrot,Northern Quoll,7
-Northern Quoll,Night Parrot,7
-Night Parrot,Red Goshawk,7
-Red Goshawk,Night Parrot,7
-Great Desert Skink,Night Parrot,7
-Night Parrot,Great Desert Skink,7
-Greater Bilby,Night Parrot,14
-Night Parrot,Greater Bilby,14
-Northern Hairy-nosed Wombat,Northern Hairy-nosed Wombat,1
-Koala (combined populations of Queensland,Northern Hairy-nosed Wombat,1
-Northern Hairy-nosed Wombat,Koala (combined populations of Queensland,1
 New Holland Mouse,New Holland Mouse,144
 Koala (combined populations of Queensland,New Holland Mouse,106
 New Holland Mouse,Koala (combined populations of Queensland,106
-Koala (combined populations of Queensland,Redfin Blue Eye,1
-Redfin Blue Eye,Koala (combined populations of Queensland,1
 Growling Grass Frog,Plains-wanderer,136
 Plains-wanderer,Growling Grass Frog,136
-Greater Bilby,Plains-wanderer,10
-Plains-wanderer,Greater Bilby,10
 Australian Sea-lion,Plains-wanderer,13
 Plains-wanderer,Australian Sea-lion,13
-Eastern Curlew,Freshwater Sawfish,50
-Freshwater Sawfish,Eastern Curlew,50
 Eastern Curlew,Eastern Hooded Plover,122
 Eastern Hooded Plover,Eastern Curlew,122
-Eastern Curlew,Pygmy Blue-tongue Lizard,2
-Pygmy Blue-tongue Lizard,Eastern Curlew,2
 Plains-wanderer,Regent Honeyeater,72
 Regent Honeyeater,Plains-wanderer,72
-Plains-wanderer,South-eastern Red-tailed Black-Cockatoo,38
-South-eastern Red-tailed Black-Cockatoo,Plains-wanderer,38
-Murray Hardyhead,Plains-wanderer,21
-Plains-wanderer,Murray Hardyhead,21
 Plains-wanderer,Red Goshawk,1
 Red Goshawk,Plains-wanderer,1
 Plains-wanderer,Swift Parrot,93
 Swift Parrot,Plains-wanderer,93
-Malleefowl,Night Parrot,5
-Night Parrot,Malleefowl,5
 Koala (combined populations of Queensland,Malleefowl,29
 Malleefowl,Koala (combined populations of Queensland,29
-Malleefowl,Princess Parrot,4
-Princess Parrot,Malleefowl,4
-Lax Leek Orchid,Lax Leek Orchid,6
-Lax Leek Orchid,Malleefowl,4
-Malleefowl,Lax Leek Orchid,4
-Malleefowl,Pygmy Blue-tongue Lizard,2
-Pygmy Blue-tongue Lizard,Malleefowl,2
-Growling Grass Frog,Murray Hardyhead,32
-Murray Hardyhead,Growling Grass Frog,32
 Growling Grass Frog,Southern Bent-wing Bat,66
 Southern Bent-wing Bat,Growling Grass Frog,66
 Growling Grass Frog,Koala (combined populations of Queensland,28
 Koala (combined populations of Queensland,Growling Grass Frog,28
-Greater Bilby,Green Turtle,30
-Green Turtle,Greater Bilby,30
-Greater Bilby,Northern Quoll,16
-Northern Quoll,Greater Bilby,16
-Great Desert Skink,Greater Bilby,8
-Greater Bilby,Great Desert Skink,8
-Freshwater Sawfish,Greater Bilby,21
-Greater Bilby,Freshwater Sawfish,21
 Eastern Curlew,Green Turtle,147
 Green Turtle,Eastern Curlew,147
 Eastern Curlew,Northern Quoll,113
 Northern Quoll,Eastern Curlew,113
-Green Turtle,Princess Parrot,24
-Princess Parrot,Green Turtle,24
-Princess Parrot,Red Goshawk,4
-Red Goshawk,Princess Parrot,4
-Great Desert Skink,Princess Parrot,8
-Princess Parrot,Great Desert Skink,8
 Eastern Hooded Plover,Orange-bellied Parrot,138
 Orange-bellied Parrot,Eastern Hooded Plover,138
 Australian Sea-lion,Eastern Hooded Plover,42
 Eastern Hooded Plover,Australian Sea-lion,42
-Greater Bilby,Princess Parrot,18
-Princess Parrot,Greater Bilby,18
-MacDonnell Ranges Cycad,Princess Parrot,4
-Princess Parrot,MacDonnell Ranges Cycad,4
-Central Rock-rat,Princess Parrot,4
-Princess Parrot,Central Rock-rat,4
-Golden-shouldered Parrot,Red Goshawk,6
-Red Goshawk,Golden-shouldered Parrot,6
-Koala (combined populations of Queensland,Southern Corroboree Frog,4
-Southern Corroboree Frog,Koala (combined populations of Queensland,4
 Eastern Hooded Plover,Regent Honeyeater,84
 Regent Honeyeater,Eastern Hooded Plover,84
 Eastern Hooded Plover,Green Turtle,20
 Green Turtle,Eastern Hooded Plover,20
 Eastern Hooded Plover,Swift Parrot,138
 Swift Parrot,Eastern Hooded Plover,138
-Australasian Bittern,South-eastern Red-tailed Black-Cockatoo,50
-South-eastern Red-tailed Black-Cockatoo,Australasian Bittern,50
-Australasian Bittern,Pygmy Blue-tongue Lizard,1
-Pygmy Blue-tongue Lizard,Australasian Bittern,1
-Australasian Bittern,Murray Hardyhead,33
-Murray Hardyhead,Australasian Bittern,33
 Eastern Hooded Plover,Malleefowl,37
 Malleefowl,Eastern Hooded Plover,37
 Eastern Hooded Plover,Growling Grass Frog,120
@@ -352,110 +150,24 @@ Eastern Hooded Plover,Plains-wanderer,52
 Plains-wanderer,Eastern Hooded Plover,52
 Eastern Hooded Plover,New Holland Mouse,38
 New Holland Mouse,Eastern Hooded Plover,38
-Eastern Hooded Plover,Kangaroo Island Echidna,9
-Kangaroo Island Echidna,Eastern Hooded Plover,9
-Red Handfish,Red Handfish,11
-Eastern Hooded Plover,Red Handfish,11
-Red Handfish,Eastern Hooded Plover,11
-Northern Brushtail Possum,Northern Quoll,59
-Northern Quoll,Northern Brushtail Possum,59
-Freshwater Sawfish,Northern Brushtail Possum,42
-Northern Brushtail Possum,Freshwater Sawfish,42
-Tangled Wattle,Tangled Wattle,2
-Carnaby's Black Cockatoo,Tangled Wattle,2
-Tangled Wattle,Carnaby's Black Cockatoo,2
 Carnaby's Black Cockatoo,Green Turtle,32
 Green Turtle,Carnaby's Black Cockatoo,32
-Carnaby's Black Cockatoo,Chuditch,93
-Chuditch,Carnaby's Black Cockatoo,93
-Scaly Butt Mallee,Scaly Butt Mallee,3
-Carnaby's Black Cockatoo,Scaly Butt Mallee,3
-Scaly Butt Mallee,Carnaby's Black Cockatoo,3
 Carnaby's Black Cockatoo,Malleefowl,65
 Malleefowl,Carnaby's Black Cockatoo,65
-Carnaby's Black Cockatoo,Numbat,16
-Numbat,Carnaby's Black Cockatoo,16
-Regent Honeyeater,Southern Corroboree Frog,2
-Southern Corroboree Frog,Regent Honeyeater,2
-Australasian Bittern,Giant Freshwater Crayfish,10
-Giant Freshwater Crayfish,Australasian Bittern,10
-Australasian Bittern,Eastern Quoll,23
-Eastern Quoll,Australasian Bittern,23
-Australasian Bittern,Leadbeater's Possum,4
-Leadbeater's Possum,Australasian Bittern,4
-Night Parrot,Plains-wanderer,3
-Plains-wanderer,Night Parrot,3
-Night Parrot,Princess Parrot,8
-Princess Parrot,Night Parrot,8
-Koala (combined populations of Queensland,Mountain Pygmy-possum,4
-Mountain Pygmy-possum,Koala (combined populations of Queensland,4
 Koala (combined populations of Queensland,Northern Quoll,119
 Northern Quoll,Koala (combined populations of Queensland,119
-Adorned Delma,Koala (combined populations of Queensland,36
-Koala (combined populations of Queensland,Adorned Delma,36
-King Blue-grass,Koala (combined populations of Queensland,4
-Koala (combined populations of Queensland,King Blue-grass,4
 Eastern Curlew,Orange-bellied Parrot,77
 Orange-bellied Parrot,Eastern Curlew,77
-Grey Nurse Shark (east coast population),Regent Honeyeater,17
-Regent Honeyeater,Grey Nurse Shark (east coast population),17
-Australasian Bittern,Chuditch,49
-Chuditch,Australasian Bittern,49
 Southern Bent-wing Bat,Swift Parrot,38
 Swift Parrot,Southern Bent-wing Bat,38
-Freshwater Sawfish,Short-nosed Seasnake,22
-Short-nosed Seasnake,Freshwater Sawfish,22
-Olive Ridley Turtle,Short-nosed Seasnake,21
-Short-nosed Seasnake,Olive Ridley Turtle,21
-Grey Nurse Shark (east coast population),Olive Ridley Turtle,10
-Olive Ridley Turtle,Grey Nurse Shark (east coast population),10
-Giant Gippsland Earthworm,Regent Honeyeater,6
-Regent Honeyeater,Giant Gippsland Earthworm,6
-Eltham Copper Butterfly,Eltham Copper Butterfly,14
-Eltham Copper Butterfly,Regent Honeyeater,7
-Regent Honeyeater,Eltham Copper Butterfly,7
-Eltham Copper Butterfly,Swift Parrot,11
-Swift Parrot,Eltham Copper Butterfly,11
 Brush-tailed Rock-wallaby,Regent Honeyeater,59
 Regent Honeyeater,Brush-tailed Rock-wallaby,59
 Brush-tailed Rock-wallaby,Swift Parrot,75
 Swift Parrot,Brush-tailed Rock-wallaby,75
 New Holland Mouse,Regent Honeyeater,99
 Regent Honeyeater,New Holland Mouse,99
-Mountain Frog,Mountain Frog,29
-Koala (combined populations of Queensland,Mountain Frog,29
-Mountain Frog,Koala (combined populations of Queensland,29
-Mountain Frog,Regent Honeyeater,18
-Regent Honeyeater,Mountain Frog,18
-White's Seahorse,White's Seahorse,68
-Green Turtle,White's Seahorse,46
-White's Seahorse,Green Turtle,46
-Grey Nurse Shark (east coast population),White's Seahorse,17
-White's Seahorse,Grey Nurse Shark (east coast population),17
-Olive Ridley Turtle,White's Seahorse,23
-White's Seahorse,Olive Ridley Turtle,23
-Eastern Quoll,Giant Freshwater Crayfish,4
-Giant Freshwater Crayfish,Eastern Quoll,4
-Giant Freshwater Crayfish,Growling Grass Frog,14
-Growling Grass Frog,Giant Freshwater Crayfish,14
-Ammonite Pinwheel Snail,Ammonite Pinwheel Snail,5
-Ammonite Pinwheel Snail,Eastern Quoll,5
-Eastern Quoll,Ammonite Pinwheel Snail,5
-Ammonite Pinwheel Snail,Swift Parrot,5
-Swift Parrot,Ammonite Pinwheel Snail,5
-Eastern Quoll,Swan Galaxias,3
-Swan Galaxias,Eastern Quoll,3
-Freshwater Sawfish,Olive Ridley Turtle,29
-Olive Ridley Turtle,Freshwater Sawfish,29
-Northern Quoll,Short-nosed Seasnake,24
-Short-nosed Seasnake,Northern Quoll,24
 Northern Quoll,Olive Ridley Turtle,50
 Olive Ridley Turtle,Northern Quoll,50
-White-throated Grasswren,White-throated Grasswren,10
-Northern Quoll,White-throated Grasswren,10
-White-throated Grasswren,Northern Quoll,10
-Red Goshawk,White-throated Grasswren,10
-White-throated Grasswren,Red Goshawk,10
 Red Goshawk,Regent Honeyeater,114
 Regent Honeyeater,Red Goshawk,114
 Green Turtle,Red Goshawk,81
@@ -464,39 +176,7 @@ Olive Ridley Turtle,Red Goshawk,51
 Red Goshawk,Olive Ridley Turtle,51
 Brush-tailed Rock-wallaby,Red Goshawk,48
 Red Goshawk,Brush-tailed Rock-wallaby,48
-Koala (combined populations of Queensland,Spectacled Flying-fox,10
-Spectacled Flying-fox,Koala (combined populations of Queensland,10
-Green Turtle,Spectacled Flying-fox,13
-Spectacled Flying-fox,Green Turtle,13
-Western Ringtail Possum,Western Ringtail Possum,42
-Australasian Bittern,Western Ringtail Possum,25
-Western Ringtail Possum,Australasian Bittern,25
-Australian Sea-lion,Chuditch,29
-Chuditch,Australian Sea-lion,29
-Australian Sea-lion,Western Ringtail Possum,10
-Western Ringtail Possum,Australian Sea-lion,10
-Carnaby's Black Cockatoo,Western Ringtail Possum,42
-Western Ringtail Possum,Carnaby's Black Cockatoo,42
-Chuditch,Western Ringtail Possum,42
-Western Ringtail Possum,Chuditch,42
-Angle-stemmed Myrtle,Angle-stemmed Myrtle,10
 Native Guava,Native Guava,179
-Angle-stemmed Myrtle,Australasian Bittern,9
-Australasian Bittern,Angle-stemmed Myrtle,9
-Angle-stemmed Myrtle,Eastern Curlew,7
-Eastern Curlew,Angle-stemmed Myrtle,7
-Angle-stemmed Myrtle,Koala (combined populations of Queensland,10
-Koala (combined populations of Queensland,Angle-stemmed Myrtle,10
-Angle-stemmed Myrtle,Native Guava,7
-Native Guava,Angle-stemmed Myrtle,7
-Angle-stemmed Myrtle,Northern Quoll,5
-Northern Quoll,Angle-stemmed Myrtle,5
-Angle-stemmed Myrtle,Red Goshawk,10
-Red Goshawk,Angle-stemmed Myrtle,10
-Angle-stemmed Myrtle,Regent Honeyeater,10
-Regent Honeyeater,Angle-stemmed Myrtle,10
-Angle-stemmed Myrtle,Swift Parrot,10
-Swift Parrot,Angle-stemmed Myrtle,10
 Australasian Bittern,Native Guava,115
 Native Guava,Australasian Bittern,115
 Australasian Bittern,Northern Quoll,40
@@ -525,1640 +205,89 @@ Northern Quoll,Swift Parrot,55
 Swift Parrot,Northern Quoll,55
 Red Goshawk,Swift Parrot,143
 Swift Parrot,Red Goshawk,143
-Black-eared Miner,Eastern Curlew,1
-Eastern Curlew,Black-eared Miner,1
-Giant Freshwater Crayfish,Orange-bellied Parrot,5
-Orange-bellied Parrot,Giant Freshwater Crayfish,5
-Maugean Skate,Swift Parrot,4
-Swift Parrot,Maugean Skate,4
-Adamson's Blown-grass,Adamson's Blown-grass,36
-Adamson's Blown-grass,Growling Grass Frog,36
-Growling Grass Frog,Adamson's Blown-grass,36
-Adamson's Blown-grass,Southern Bent-wing Bat,19
-Southern Bent-wing Bat,Adamson's Blown-grass,19
-Koala (combined populations of Queensland,Murray Hardyhead,6
-Murray Hardyhead,Koala (combined populations of Queensland,6
-Greater Bilby,Short-nosed Seasnake,15
-Short-nosed Seasnake,Greater Bilby,15
-Eastern Quoll,Growling Grass Frog,25
-Growling Grass Frog,Eastern Quoll,25
-Growling Grass Frog,Swan Galaxias,4
-Swan Galaxias,Growling Grass Frog,4
-Graveside Leek-orchid,Graveside Leek-orchid,4
-Graveside Leek-orchid,Growling Grass Frog,3
-Growling Grass Frog,Graveside Leek-orchid,3
-Graveside Leek-orchid,Swift Parrot,4
-Swift Parrot,Graveside Leek-orchid,4
-Giant Gippsland Earthworm,Growling Grass Frog,7
-Growling Grass Frog,Giant Gippsland Earthworm,7
-Forked Spyridium,Forked Spyridium,3
-Forked Spyridium,Malleefowl,3
-Malleefowl,Forked Spyridium,3
-Forked Spyridium,South-eastern Red-tailed Black-Cockatoo,3
-South-eastern Red-tailed Black-Cockatoo,Forked Spyridium,3
-Greater Bilby,Numbat,5
-Numbat,Greater Bilby,5
-Black-eared Miner,Growling Grass Frog,10
-Growling Grass Frog,Black-eared Miner,10
-Black-eared Miner,Greater Bilby,2
-Greater Bilby,Black-eared Miner,2
-Black-eared Miner,Numbat,2
-Numbat,Black-eared Miner,2
 Orange-bellied Parrot,Plains-wanderer,52
 Plains-wanderer,Orange-bellied Parrot,52
-Quokka,Quokka,38
-Australian Sea-lion,Quokka,9
-Quokka,Australian Sea-lion,9
-Green Turtle,Quokka,3
-Quokka,Green Turtle,3
 Eastern Curlew,New Holland Mouse,43
 New Holland Mouse,Eastern Curlew,43
-Eastern Curlew,Kangaroo Island Echidna,3
-Kangaroo Island Echidna,Eastern Curlew,3
-Eastern Curlew,Northern Brushtail Possum,44
-Northern Brushtail Possum,Eastern Curlew,44
-Greater Bilby,Waddy,3
-Waddy,Greater Bilby,3
-Plains-wanderer,Waddy,2
-Waddy,Plains-wanderer,2
-Eastern Curlew,Short-nosed Seasnake,29
-Short-nosed Seasnake,Eastern Curlew,29
 Eastern Curlew,Olive Ridley Turtle,59
 Olive Ridley Turtle,Eastern Curlew,59
-Norfolk Island Green Parrot,Norfolk Island Green Parrot,1
-Eastern Curlew,Norfolk Island Green Parrot,1
-Norfolk Island Green Parrot,Eastern Curlew,1
-Green Turtle,Norfolk Island Green Parrot,1
-Norfolk Island Green Parrot,Green Turtle,1
-Eastern Curlew,Spectacled Flying-fox,14
-Spectacled Flying-fox,Eastern Curlew,14
-Little Mountain Palm,Little Mountain Palm,2
-Mount Lidgbird Charopid Land Snail,Mount Lidgbird Charopid Land Snail,2
-Eastern Curlew,Little Mountain Palm,2
-Little Mountain Palm,Eastern Curlew,2
-Eastern Curlew,Mount Lidgbird Charopid Land Snail,2
-Mount Lidgbird Charopid Land Snail,Eastern Curlew,2
-Little Mountain Palm,Mount Lidgbird Charopid Land Snail,2
-Mount Lidgbird Charopid Land Snail,Little Mountain Palm,2
-Eastern Curlew,Murray Hardyhead,17
-Murray Hardyhead,Eastern Curlew,17
-Eastern Curlew,Golden-shouldered Parrot,3
-Golden-shouldered Parrot,Eastern Curlew,3
 New Holland Mouse,Swift Parrot,116
 Swift Parrot,New Holland Mouse,116
-Davies' Waxflower,Davies' Waxflower,10
-Davies' Waxflower,Eastern Quoll,7
-Eastern Quoll,Davies' Waxflower,7
-Davies' Waxflower,Swift Parrot,10
-Swift Parrot,Davies' Waxflower,10
-Graveside Leek-orchid,Swan Galaxias,2
-Swan Galaxias,Graveside Leek-orchid,2
-Great Desert Skink,Northern Quoll,2
-Northern Quoll,Great Desert Skink,2
-Adamson's Blown-grass,Plains-wanderer,24
-Plains-wanderer,Adamson's Blown-grass,24
 Brush-tailed Rock-wallaby,New Holland Mouse,38
 New Holland Mouse,Brush-tailed Rock-wallaby,38
-Georges' Snapping Turtle,Georges' Snapping Turtle,11
-Brush-tailed Rock-wallaby,Georges' Snapping Turtle,2
-Georges' Snapping Turtle,Brush-tailed Rock-wallaby,2
-Georges' Snapping Turtle,Koala (combined populations of Queensland,11
-Koala (combined populations of Queensland,Georges' Snapping Turtle,11
 Green Turtle,Koala (combined populations of Queensland,85
 Koala (combined populations of Queensland,Green Turtle,85
 Koala (combined populations of Queensland,Olive Ridley Turtle,33
 Olive Ridley Turtle,Koala (combined populations of Queensland,33
-Adorned Delma,Northern Quoll,20
-Northern Quoll,Adorned Delma,20
-Northern Brushtail Possum,Princess Parrot,13
-Princess Parrot,Northern Brushtail Possum,13
-Great Desert Skink,MacDonnell Ranges Cycad,1
-MacDonnell Ranges Cycad,Great Desert Skink,1
-Central Rock-rat,MacDonnell Ranges Cycad,2
-MacDonnell Ranges Cycad,Central Rock-rat,2
-Northern Quoll,Princess Parrot,10
-Princess Parrot,Northern Quoll,10
-Central Rock-rat,Great Desert Skink,1
-Great Desert Skink,Central Rock-rat,1
-Eastern Hooded Plover,Eastern Quoll,26
-Eastern Quoll,Eastern Hooded Plover,26
-Eastern Quoll,Red Handfish,7
-Red Handfish,Eastern Quoll,7
-Eastern Hooded Plover,Giant Freshwater Crayfish,11
-Giant Freshwater Crayfish,Eastern Hooded Plover,11
-Eastern Hooded Plover,Lax Leek Orchid,5
-Lax Leek Orchid,Eastern Hooded Plover,5
-Eastern Hooded Plover,South-eastern Red-tailed Black-Cockatoo,13
-South-eastern Red-tailed Black-Cockatoo,Eastern Hooded Plover,13
-Orange-bellied Parrot,South-eastern Red-tailed Black-Cockatoo,19
-South-eastern Red-tailed Black-Cockatoo,Orange-bellied Parrot,19
 Eastern Hooded Plover,Southern Bent-wing Bat,26
 Southern Bent-wing Bat,Eastern Hooded Plover,26
-Australian Sea-lion,Greater Bilby,5
-Greater Bilby,Australian Sea-lion,5
-Eastern Hooded Plover,Greater Bilby,4
-Greater Bilby,Eastern Hooded Plover,4
-Australian Sea-lion,Lax Leek Orchid,4
-Lax Leek Orchid,Australian Sea-lion,4
-Golden-shouldered Parrot,Northern Quoll,3
-Northern Quoll,Golden-shouldered Parrot,3
-Mountain Pygmy-possum,Southern Corroboree Frog,2
-Southern Corroboree Frog,Mountain Pygmy-possum,2
-Olive Ridley Turtle,Spectacled Flying-fox,9
-Spectacled Flying-fox,Olive Ridley Turtle,9
 Native Guava,New Holland Mouse,45
 New Holland Mouse,Native Guava,45
-King Island Brown Thornbill,King Island Brown Thornbill,11
-Eastern Hooded Plover,King Island Brown Thornbill,11
-King Island Brown Thornbill,Eastern Hooded Plover,11
-King Island Brown Thornbill,Orange-bellied Parrot,11
-Orange-bellied Parrot,King Island Brown Thornbill,11
-Adorned Delma,Regent Honeyeater,13
-Regent Honeyeater,Adorned Delma,13
-Adorned Delma,Swift Parrot,22
-Swift Parrot,Adorned Delma,22
-Princess Parrot,Short-nosed Seasnake,12
-Short-nosed Seasnake,Princess Parrot,12
-Olive Ridley Turtle,Princess Parrot,5
-Princess Parrot,Olive Ridley Turtle,5
-Freshwater Sawfish,Princess Parrot,12
-Princess Parrot,Freshwater Sawfish,12
-Carnaby's Black Cockatoo,Quokka,36
-Quokka,Carnaby's Black Cockatoo,36
-Chuditch,Quokka,27
-Quokka,Chuditch,27
-Margaret River Burrowing Crayfish,Margaret River Burrowing Crayfish,5
-Carnaby's Black Cockatoo,Margaret River Burrowing Crayfish,5
-Margaret River Burrowing Crayfish,Carnaby's Black Cockatoo,5
-Chuditch,Margaret River Burrowing Crayfish,5
-Margaret River Burrowing Crayfish,Chuditch,5
-Malleefowl,Tangled Wattle,1
-Tangled Wattle,Malleefowl,1
-Malleefowl,Scaly Butt Mallee,2
-Scaly Butt Mallee,Malleefowl,2
-Foote's Grevillea,Foote's Grevillea,1
-Carnaby's Black Cockatoo,Foote's Grevillea,1
-Foote's Grevillea,Carnaby's Black Cockatoo,1
-Foote's Grevillea,Malleefowl,1
-Malleefowl,Foote's Grevillea,1
-Carnaby's Black Cockatoo,Greater Bilby,5
-Greater Bilby,Carnaby's Black Cockatoo,5
-Growling Grass Frog,Leadbeater's Possum,3
-Leadbeater's Possum,Growling Grass Frog,3
-Australasian Bittern,Giant Gippsland Earthworm,6
-Giant Gippsland Earthworm,Australasian Bittern,6
-Australasian Bittern,Davies' Waxflower,8
-Davies' Waxflower,Australasian Bittern,8
-Malleefowl,Western Ground Parrot,2
-Western Ground Parrot,Malleefowl,2
-Malleefowl,Wongan Eriostemon,1
-Wongan Eriostemon,Malleefowl,1
-Malleefowl,Quokka,16
-Quokka,Malleefowl,16
-Chuditch,Eastern Curlew,26
-Eastern Curlew,Chuditch,26
 Olive Ridley Turtle,Regent Honeyeater,12
 Regent Honeyeater,Olive Ridley Turtle,12
-Regent Honeyeater,White's Seahorse,45
-White's Seahorse,Regent Honeyeater,45
-Eltham Copper Butterfly,Growling Grass Frog,7
-Growling Grass Frog,Eltham Copper Butterfly,7
 Australasian Bittern,New Holland Mouse,85
 New Holland Mouse,Australasian Bittern,85
-Green Turtle,Northern Brushtail Possum,49
-Northern Brushtail Possum,Green Turtle,49
-White-bellied Frog,White-bellied Frog,7
-Carnaby's Black Cockatoo,White-bellied Frog,7
-White-bellied Frog,Carnaby's Black Cockatoo,7
-Chuditch,White-bellied Frog,7
-White-bellied Frog,Chuditch,7
-Chuditch,Green Turtle,25
-Green Turtle,Chuditch,25
-Chuditch,Numbat,11
-Numbat,Chuditch,11
-Brush-tailed Rock-wallaby,Mountain Frog,23
-Mountain Frog,Brush-tailed Rock-wallaby,23
 Australasian Bittern,Green Turtle,73
 Green Turtle,Australasian Bittern,73
 Green Turtle,Swift Parrot,50
 Swift Parrot,Green Turtle,50
-Australasian Bittern,Eltham Copper Butterfly,8
-Eltham Copper Butterfly,Australasian Bittern,8
-Eltham Copper Butterfly,Plains-wanderer,12
-Plains-wanderer,Eltham Copper Butterfly,12
-Eltham Copper Butterfly,South-eastern Red-tailed Black-Cockatoo,6
-South-eastern Red-tailed Black-Cockatoo,Eltham Copper Butterfly,6
-Adamson's Blown-grass,Australasian Bittern,19
-Australasian Bittern,Adamson's Blown-grass,19
 Plains-wanderer,Southern Bent-wing Bat,30
 Southern Bent-wing Bat,Plains-wanderer,30
-Stiff Groundsel,Stiff Groundsel,12
-Australasian Bittern,Stiff Groundsel,10
-Stiff Groundsel,Australasian Bittern,10
-Growling Grass Frog,Stiff Groundsel,10
-Stiff Groundsel,Growling Grass Frog,10
-Plains-wanderer,Stiff Groundsel,12
-Stiff Groundsel,Plains-wanderer,12
-Australasian Bittern,Quokka,20
-Quokka,Australasian Bittern,20
-Australasian Bittern,Maugean Skate,2
-Maugean Skate,Australasian Bittern,2
 Australian Sea-lion,Southern Bent-wing Bat,7
 Southern Bent-wing Bat,Australian Sea-lion,7
 Eastern Curlew,Growling Grass Frog,84
 Growling Grass Frog,Eastern Curlew,84
-Australasian Bittern,Red Handfish,7
-Red Handfish,Australasian Bittern,7
-Eastern Curlew,Red Handfish,6
-Red Handfish,Eastern Curlew,6
-Regent Honeyeater,Stiff Groundsel,5
-Stiff Groundsel,Regent Honeyeater,5
-Wollemi Pine,Wollemi Pine,8
-Koala (combined populations of Queensland,Wollemi Pine,8
-Wollemi Pine,Koala (combined populations of Queensland,8
-Regent Honeyeater,Wollemi Pine,7
-Wollemi Pine,Regent Honeyeater,7
-Swift Parrot,Wollemi Pine,8
-Wollemi Pine,Swift Parrot,8
-Mountain Frog,Swift Parrot,17
-Swift Parrot,Mountain Frog,17
-Mountain Frog,Red Goshawk,15
-Red Goshawk,Mountain Frog,15
-Red Goshawk,Short-nosed Seasnake,8
-Short-nosed Seasnake,Red Goshawk,8
-Adamson's Blown-grass,South-eastern Red-tailed Black-Cockatoo,4
-South-eastern Red-tailed Black-Cockatoo,Adamson's Blown-grass,4
-Northern Brushtail Possum,White-throated Grasswren,9
-White-throated Grasswren,Northern Brushtail Possum,9
-Adorned Delma,Red Goshawk,30
-Red Goshawk,Adorned Delma,30
-Bulberin Nut,Bulberin Nut,3
-Bulberin Nut,Koala (combined populations of Queensland,3
-Koala (combined populations of Queensland,Bulberin Nut,3
-Bulberin Nut,Northern Quoll,3
-Northern Quoll,Bulberin Nut,3
-Bulberin Nut,Red Goshawk,3
-Red Goshawk,Bulberin Nut,3
-King Blue-grass,Red Goshawk,1
-Red Goshawk,King Blue-grass,1
-Kroombit Tinker Frog,Kroombit Tinker Frog,3
-Koala (combined populations of Queensland,Kroombit Tinker Frog,3
-Kroombit Tinker Frog,Koala (combined populations of Queensland,3
-Kroombit Tinker Frog,Northern Quoll,3
-Northern Quoll,Kroombit Tinker Frog,3
-Kroombit Tinker Frog,Red Goshawk,3
-Red Goshawk,Kroombit Tinker Frog,3
-Northern Brushtail Possum,Olive Ridley Turtle,29
-Olive Ridley Turtle,Northern Brushtail Possum,29
-Arnhem Land Egernia,Arnhem Land Egernia,11
-Arnhem Land Egernia,Northern Brushtail Possum,11
-Northern Brushtail Possum,Arnhem Land Egernia,11
-Arnhem Land Egernia,Northern Quoll,11
-Northern Quoll,Arnhem Land Egernia,11
-Arnhem Land Egernia,Red Goshawk,11
-Red Goshawk,Arnhem Land Egernia,11
 New Holland Mouse,Northern Quoll,6
 Northern Quoll,New Holland Mouse,6
 New Holland Mouse,Red Goshawk,27
 Red Goshawk,New Holland Mouse,27
-Eastern Hooded Plover,Murray Hardyhead,7
-Murray Hardyhead,Eastern Hooded Plover,7
-Kangaroo Island Assassin Spider,Kangaroo Island Assassin Spider,2
-Australasian Bittern,Kangaroo Island Assassin Spider,2
-Kangaroo Island Assassin Spider,Australasian Bittern,2
-Eastern Hooded Plover,Kangaroo Island Assassin Spider,2
-Kangaroo Island Assassin Spider,Eastern Hooded Plover,2
-Kangaroo Island Assassin Spider,Kangaroo Island Echidna,2
-Kangaroo Island Echidna,Kangaroo Island Assassin Spider,2
-Australasian Bittern,White-bellied Frog,3
-White-bellied Frog,Australasian Bittern,3
-Noisy Scrub-bird,Noisy Scrub-bird,12
-Australasian Bittern,Noisy Scrub-bird,12
-Noisy Scrub-bird,Australasian Bittern,12
-Carnaby's Black Cockatoo,Noisy Scrub-bird,12
-Noisy Scrub-bird,Carnaby's Black Cockatoo,12
-Chuditch,Noisy Scrub-bird,11
-Noisy Scrub-bird,Chuditch,11
-Australasian Bittern,Numbat,4
-Numbat,Australasian Bittern,4
-Northern Hopping-mouse,Northern Hopping-mouse,6
-Northern Brushtail Possum,Northern Hopping-mouse,6
-Northern Hopping-mouse,Northern Brushtail Possum,6
-Northern Hopping-mouse,Northern Quoll,6
-Northern Quoll,Northern Hopping-mouse,6
-Northern Hopping-mouse,Red Goshawk,4
-Red Goshawk,Northern Hopping-mouse,4
-Georges' Snapping Turtle,Native Guava,9
-Native Guava,Georges' Snapping Turtle,9
-Georges' Snapping Turtle,Swift Parrot,10
-Swift Parrot,Georges' Snapping Turtle,10
 Brush-tailed Rock-wallaby,Malleefowl,9
 Malleefowl,Brush-tailed Rock-wallaby,9
-Forked Spyridium,Growling Grass Frog,2
-Growling Grass Frog,Forked Spyridium,2
-Adamson's Blown-grass,Malleefowl,13
-Malleefowl,Adamson's Blown-grass,13
-Adamson's Blown-grass,Swift Parrot,26
-Swift Parrot,Adamson's Blown-grass,26
 Brush-tailed Rock-wallaby,Growling Grass Frog,5
 Growling Grass Frog,Brush-tailed Rock-wallaby,5
-Eastern Curlew,Lax Leek Orchid,2
-Lax Leek Orchid,Eastern Curlew,2
-Adorned Delma,King Blue-grass,1
-King Blue-grass,Adorned Delma,1
-Koala (combined populations of Queensland,White's Seahorse,53
-White's Seahorse,Koala (combined populations of Queensland,53
-Eltham Copper Butterfly,Malleefowl,6
-Malleefowl,Eltham Copper Butterfly,6
-Greater Bilby,Growling Grass Frog,1
-Growling Grass Frog,Greater Bilby,1
-Numbat,Plains-wanderer,1
-Plains-wanderer,Numbat,1
-Greater Bilby,Olive Ridley Turtle,2
-Olive Ridley Turtle,Greater Bilby,2
-Black-eared Miner,Koala (combined populations of Queensland,5
-Koala (combined populations of Queensland,Black-eared Miner,5
-Eastern Curlew,Princess Parrot,10
-Princess Parrot,Eastern Curlew,10
-Eastern Curlew,Eastern Quoll,11
-Eastern Quoll,Eastern Curlew,11
-Ammonite Pinwheel Snail,Growling Grass Frog,4
-Growling Grass Frog,Ammonite Pinwheel Snail,4
-Eastern Quoll,Graveside Leek-orchid,1
-Graveside Leek-orchid,Eastern Quoll,1
-Davies' Waxflower,Growling Grass Frog,7
-Growling Grass Frog,Davies' Waxflower,7
 Brush-tailed Rock-wallaby,Native Guava,33
 Native Guava,Brush-tailed Rock-wallaby,33
-Eastern Curlew,White's Seahorse,43
-White's Seahorse,Eastern Curlew,43
-Green Turtle,Little Mountain Palm,1
-Little Mountain Palm,Green Turtle,1
-Green Turtle,Mount Lidgbird Charopid Land Snail,1
-Mount Lidgbird Charopid Land Snail,Green Turtle,1
-Eastern Hooded Plover,Maugean Skate,2
-Maugean Skate,Eastern Hooded Plover,2
-Western Ringtail Possum,White-bellied Frog,4
-White-bellied Frog,Western Ringtail Possum,4
-Quokka,White-bellied Frog,4
-White-bellied Frog,Quokka,4
-Numbat,Western Ringtail Possum,4
-Western Ringtail Possum,Numbat,4
-Numbat,Quokka,7
-Quokka,Numbat,7
-Green Turtle,Western Ringtail Possum,14
-Western Ringtail Possum,Green Turtle,14
-Quokka,Western Ringtail Possum,14
-Western Ringtail Possum,Quokka,14
-Eastern Curlew,Quokka,3
-Quokka,Eastern Curlew,3
-Adorned Delma,Brush-tailed Rock-wallaby,8
-Brush-tailed Rock-wallaby,Adorned Delma,8
-Central Rock-rat,Red Goshawk,1
-Red Goshawk,Central Rock-rat,1
-MacDonnell Ranges Cycad,Red Goshawk,1
-Red Goshawk,MacDonnell Ranges Cycad,1
-Freshwater Sawfish,Golden-shouldered Parrot,2
-Golden-shouldered Parrot,Freshwater Sawfish,2
-Pink Underwing Moth,Pink Underwing Moth,51
-Koala (combined populations of Queensland,Pink Underwing Moth,50
-Pink Underwing Moth,Koala (combined populations of Queensland,50
-Native Guava,Pink Underwing Moth,49
-Pink Underwing Moth,Native Guava,49
-New Holland Mouse,Pink Underwing Moth,12
-Pink Underwing Moth,New Holland Mouse,12
-King Island Scrubtit,King Island Scrubtit,7
-Eastern Hooded Plover,King Island Scrubtit,7
-King Island Scrubtit,Eastern Hooded Plover,7
-King Island Brown Thornbill,King Island Scrubtit,7
-King Island Scrubtit,King Island Brown Thornbill,7
-King Island Scrubtit,Orange-bellied Parrot,7
-Orange-bellied Parrot,King Island Scrubtit,7
-King Island Brown Thornbill,Swift Parrot,4
-Swift Parrot,King Island Brown Thornbill,4
-Growling Grass Frog,King Island Brown Thornbill,4
-King Island Brown Thornbill,Growling Grass Frog,4
-Eastern Hooded Plover,Grey Nurse Shark (east coast population),4
-Grey Nurse Shark (east coast population),Eastern Hooded Plover,4
 Eastern Hooded Plover,Koala (combined populations of Queensland,23
 Koala (combined populations of Queensland,Eastern Hooded Plover,23
-Eastern Hooded Plover,Swan Galaxias,2
-Swan Galaxias,Eastern Hooded Plover,2
-Eastern Quoll,New Holland Mouse,5
-New Holland Mouse,Eastern Quoll,5
-Red Handfish,Swift Parrot,8
-Swift Parrot,Red Handfish,8
-Mountain Frog,New Holland Mouse,14
-New Holland Mouse,Mountain Frog,14
-Stiff Groundsel,Swift Parrot,3
-Swift Parrot,Stiff Groundsel,3
 Brush-tailed Rock-wallaby,Northern Quoll,13
 Northern Quoll,Brush-tailed Rock-wallaby,13
-Western Swamp Tortoise,Western Swamp Tortoise,1
-Carnaby's Black Cockatoo,Western Swamp Tortoise,1
-Western Swamp Tortoise,Carnaby's Black Cockatoo,1
-Chuditch,Western Swamp Tortoise,1
-Western Swamp Tortoise,Chuditch,1
-Malleefowl,Western Swamp Tortoise,1
-Western Swamp Tortoise,Malleefowl,1
-Malleefowl,Western Ringtail Possum,12
-Western Ringtail Possum,Malleefowl,12
-Small-flowered Snottygobble,Small-flowered Snottygobble,4
-Carnaby's Black Cockatoo,Small-flowered Snottygobble,4
-Small-flowered Snottygobble,Carnaby's Black Cockatoo,4
-Malleefowl,Small-flowered Snottygobble,4
-Small-flowered Snottygobble,Malleefowl,4
-Quokka,Small-flowered Snottygobble,4
-Small-flowered Snottygobble,Quokka,4
-White's,White's,3
-Australasian Bittern,White's,3
-White's,Australasian Bittern,3
-Eastern Curlew,White's,3
-White's,Eastern Curlew,3
-Koala (combined populations of Queensland,White's,3
-White's,Koala (combined populations of Queensland,3
-Northern Quoll,White's,2
-White's,Northern Quoll,2
-Red Goshawk,White's,2
-White's,Red Goshawk,2
-Olive Ridl,Olive Ridl,1
-Australasian Bittern,Olive Ridl,1
-Olive Ridl,Australasian Bittern,1
-Australasian Bittern,White's Seahorse,44
-White's Seahorse,Australasian Bittern,44
-Eastern Curlew,Olive Ridl,1
-Olive Ridl,Eastern Curlew,1
 Green Turtle,Native Guava,32
 Native Guava,Green Turtle,32
-Green Turtle,Olive Ridl,1
-Olive Ridl,Green Turtle,1
-Koala (combined populations of Queensland,Olive Ridl,1
-Olive Ridl,Koala (combined populations of Queensland,1
-Native Guava,Olive Ridl,1
-Olive Ridl,Native Guava,1
-Native Guava,White's Seahorse,27
-White's Seahorse,Native Guava,27
-Olive Ridl,Swift Parrot,1
-Swift Parrot,Olive Ridl,1
-Olive Ridl,White's Seahorse,1
-White's Seahorse,Olive Ridl,1
-Swift Parrot,White's Seahorse,27
-White's Seahorse,Swift Parrot,27
-Green Tu,Green Tu,3
-Australasian Bittern,Green Tu,3
-Green Tu,Australasian Bittern,3
-Eastern Curlew,Green Tu,2
-Green Tu,Eastern Curlew,2
-Green Tu,Koala (combined populations of Queensland,3
-Koala (combined populations of Queensland,Green Tu,3
-Green Tu,Northern Quoll,2
-Northern Quoll,Green Tu,2
-Green Tu,Red Goshawk,3
-Red Goshawk,Green Tu,3
 Growling Grass Frog,New Holland Mouse,23
 New Holland Mouse,Growling Grass Frog,23
 New Holland Mouse,Orange-bellied Parrot,13
 Orange-bellied Parrot,New Holland Mouse,13
-Eastern Curlew,Giant Gippsland Earthworm,2
-Giant Gippsland Earthworm,Eastern Curlew,2
-Giant Gippsland Earthworm,Orange-bellied Parrot,4
-Orange-bellied Parrot,Giant Gippsland Earthworm,4
-Grey Nurse Sh,Grey Nurse Sh,2
-Australasian Bittern,Grey Nurse Sh,2
-Grey Nurse Sh,Australasian Bittern,2
-Green Turtle,Grey Nurse Sh,2
-Grey Nurse Sh,Green Turtle,2
 Green Turtle,New Holland Mouse,17
 New Holland Mouse,Green Turtle,17
-Grey Nurse Sh,Koala (combined populations of Queensland,2
-Koala (combined populations of Queensland,Grey Nurse Sh,2
-Grey Nurse Sh,New Holland Mouse,2
-New Holland Mouse,Grey Nurse Sh,2
-Grey Nurse Sh,Regent Honeyeater,2
-Regent Honeyeater,Grey Nurse Sh,2
-Grey Nurse Sh,Swift Parrot,1
-Swift Parrot,Grey Nurse Sh,1
-Grey Nurse Sh,White's Seahorse,2
-White's Seahorse,Grey Nurse Sh,2
-New Holland Mouse,White's Seahorse,15
-White's Seahorse,New Holland Mouse,15
-Grey Nurse Shark (east coas,Grey Nurse Shark (east coas,1
-Australasian Bittern,Grey Nurse Shark (east coas,1
-Grey Nurse Shark (east coas,Australasian Bittern,1
-Green Turtle,Grey Nurse Shark (east coas,1
-Grey Nurse Shark (east coas,Green Turtle,1
-Grey Nurse Shark (east coas,Koala (combined populations of Queensland,1
-Koala (combined populations of Queensland,Grey Nurse Shark (east coas,1
-Grey Nurse Shark (east coas,Native Guava,1
-Native Guava,Grey Nurse Shark (east coas,1
-Grey Nurse Shark (east coas,Regent Honeyeater,1
-Regent Honeyeater,Grey Nurse Shark (east coas,1
-Grey Nurse Shark (east coas,Swift Parrot,1
-Swift Parrot,Grey Nurse Shark (east coas,1
-Grey Nurse Shark (east coas,White's Seahorse,1
-White's Seahorse,Grey Nurse Shark (east coas,1
 Australasian Bittern,Olive Ridley Turtle,12
 Olive Ridley Turtle,Australasian Bittern,12
-Red Goshawk,White's Seahorse,15
-White's Seahorse,Red Goshawk,15
 Olive Ridley Turtle,Swift Parrot,7
 Swift Parrot,Olive Ridley Turtle,7
-Adamson's Blown-grass,Eastern Curlew,3
-Eastern Curlew,Adamson's Blown-grass,3
-Adamson's Blown-grass,Orange-bellied Parrot,2
-Orange-bellied Parrot,Adamson's Blown-grass,2
-Adamson's Blown-grass,Regent Honeyeater,9
-Regent Honeyeater,Adamson's Blown-grass,9
-Eastern Hooded Plover,White's Seahorse,3
-White's Seahorse,Eastern Hooded Plover,3
 New Holland Mouse,Plains-wanderer,2
 Plains-wanderer,New Holland Mouse,2
-Cauliflower Soft Coral,Cauliflower Soft Coral,4
-Gre,Gre,3
-Australasian Bittern,Cauliflower Soft Coral,4
-Cauliflower Soft Coral,Australasian Bittern,4
-Australasian Bittern,Gre,2
-Gre,Australasian Bittern,2
-Cauliflower Soft Coral,Gre,1
-Gre,Cauliflower Soft Coral,1
-Cauliflower Soft Coral,Koala (combined populations of Queensland,4
-Koala (combined populations of Queensland,Cauliflower Soft Coral,4
-Cauliflower Soft Coral,New Holland Mouse,3
-New Holland Mouse,Cauliflower Soft Coral,3
-Cauliflower Soft Coral,Regent Honeyeater,4
-Regent Honeyeater,Cauliflower Soft Coral,4
-Cauliflower Soft Coral,Swift Parrot,4
-Swift Parrot,Cauliflower Soft Coral,4
-Cauliflower Soft Coral,White's Seahorse,2
-White's Seahorse,Cauliflower Soft Coral,2
-Gre,Koala (combined populations of Queensland,2
-Koala (combined populations of Queensland,Gre,2
-Gre,New Holland Mouse,1
-New Holland Mouse,Gre,1
-Gre,Regent Honeyeater,2
-Regent Honeyeater,Gre,2
-Gre,Swift Parrot,2
-Swift Parrot,Gre,2
-Gre,White's Seahorse,1
-White's Seahorse,Gre,1
-Adorned Delma,Eastern Curlew,4
-Eastern Curlew,Adorned Delma,4
-Adorned Delma,Green Turtle,6
-Green Turtle,Adorned Delma,6
-Adorned Delma,Native Guava,6
-Native Guava,Adorned Delma,6
-Adorned Delma,Olive Ridley Turtle,4
-Olive Ridley Turtle,Adorned Delma,4
 Native Guava,Olive Ridley Turtle,7
 Olive Ridley Turtle,Native Guava,7
-Grey Nurse Shark (east co,Grey Nurse Shark (east co,1
-Australasian Bittern,Grey Nurse Shark (east co,1
-Grey Nurse Shark (east co,Australasian Bittern,1
-Eastern Curlew,Grey Nurse Shark (east co,1
-Grey Nurse Shark (east co,Eastern Curlew,1
-Eastern Hooded Plover,Grey Nurse Shark (east co,1
-Grey Nurse Shark (east co,Eastern Hooded Plover,1
-Green Turtle,Grey Nurse Shark (east co,1
-Grey Nurse Shark (east co,Green Turtle,1
-Grey Nurse Shark (east co,Koala (combined populations of Queensland,1
-Koala (combined populations of Queensland,Grey Nurse Shark (east co,1
-Grey Nurse Shark (east co,Regent Honeyeater,1
-Regent Honeyeater,Grey Nurse Shark (east co,1
-Eastern Curlew,Giant Freshwater Crayfish,4
-Giant Freshwater Crayfish,Eastern Curlew,4
-Eastern Curlew,Northern Hopping-mouse,3
-Northern Hopping-mouse,Eastern Curlew,3
-Green Turtle,Northern Hopping-mouse,4
-Northern Hopping-mouse,Green Turtle,4
-Northern Hopping-mouse,Olive Ridley Turtle,4
-Olive Ridley Turtle,Northern Hopping-mouse,4
-Northern Brushtail Possum,Short-nosed Seasnake,14
-Short-nosed Seasnake,Northern Brushtail Possum,14
-Grey,Grey,1
-Australasian Bittern,Grey,1
-Grey,Australasian Bittern,1
-Eastern Curlew,Grey,1
-Grey,Eastern Curlew,1
-Green Turtle,Grey,1
-Grey,Green Turtle,1
-Grey,Koala (combined populations of Queensland,1
-Koala (combined populations of Queensland,Grey,1
-Grey,Native Guava,1
-Native Guava,Grey,1
-Grey,Regent Honeyeater,1
-Regent Honeyeater,Grey,1
-Grey,White's Seahorse,1
-White's Seahorse,Grey,1
-Australasian Bittern,Pink Underwing Moth,38
-Pink Underwing Moth,Australasian Bittern,38
-Eastern Curlew,Pink Underwing Moth,15
-Pink Underwing Moth,Eastern Curlew,15
-Northern Quoll,Pink Underwing Moth,5
-Pink Underwing Moth,Northern Quoll,5
-Pink Underwing Moth,Red Goshawk,31
-Red Goshawk,Pink Underwing Moth,31
-Pink Underwing Moth,Swift Parrot,50
-Swift Parrot,Pink Underwing Moth,50
-Glenelg Freshwater Mussel,Glenelg Freshwater Mussel,9
-Australasian Bittern,Glenelg Freshwater Mussel,9
-Glenelg Freshwater Mussel,Australasian Bittern,9
-Eastern Curlew,Glenelg Freshwater Mussel,2
-Glenelg Freshwater Mussel,Eastern Curlew,2
-Eastern Curlew,South-eastern Red-tailed Black-Cockatoo,6
-South-eastern Red-tailed Black-Cockatoo,Eastern Curlew,6
-Eastern Hooded Plover,Glenelg Freshwater Mussel,4
-Glenelg Freshwater Mussel,Eastern Hooded Plover,4
-Glenelg Freshwater Mussel,Growling Grass Frog,7
-Growling Grass Frog,Glenelg Freshwater Mussel,7
-Glenelg Freshwater Mussel,Orange-bellied Parrot,5
-Orange-bellied Parrot,Glenelg Freshwater Mussel,5
-Glenelg Freshwater Mussel,Plains-wanderer,7
-Plains-wanderer,Glenelg Freshwater Mussel,7
-Glenelg Freshwater Mussel,South-eastern Red-tailed Black-Cockatoo,9
-South-eastern Red-tailed Black-Cockatoo,Glenelg Freshwater Mussel,9
 Eastern Curlew,Southern Bent-wing Bat,8
 Southern Bent-wing Bat,Eastern Curlew,8
 Green Turtle,Growling Grass Frog,3
 Growling Grass Frog,Green Turtle,3
-Koala (combined popula,Koala (combined popula,2
-Australasian Bittern,Koala (combined popula,2
-Koala (combined popula,Australasian Bittern,2
-Eastern Curlew,Koala (combined popula,2
-Koala (combined popula,Eastern Curlew,2
-Eastern Hooded Plover,Koala (combined popula,2
-Koala (combined popula,Eastern Hooded Plover,2
-Growling Grass Frog,Koala (combined popula,2
-Koala (combined popula,Growling Grass Frog,2
-Koala (combined popula,Regent Honeyeater,2
-Regent Honeyeater,Koala (combined popula,2
-Koala (combined popula,Swift Parrot,2
-Swift Parrot,Koala (combined popula,2
-Eastern Curlew,Western Ringtail Possum,16
-Western Ringtail Possum,Eastern Curlew,16
-Grey Nurse Sha,Grey Nurse Sha,1
-Eastern Curlew,Grey Nurse Sha,1
-Grey Nurse Sha,Eastern Curlew,1
-Green Turtle,Grey Nurse Sha,1
-Grey Nurse Sha,Green Turtle,1
-Grey Nurse Sha,Koala (combined populations of Queensland,1
-Koala (combined populations of Queensland,Grey Nurse Sha,1
-Grey Nurse Sha,Olive Ridley Turtle,1
-Olive Ridley Turtle,Grey Nurse Sha,1
-Grey Nurse Sha,White's Seahorse,1
-White's Seahorse,Grey Nurse Sha,1
-Olive Ridle,Olive Ridle,2
-Australasian Bittern,Olive Ridle,2
-Olive Ridle,Australasian Bittern,2
-Eastern Curlew,Olive Ridle,2
-Olive Ridle,Eastern Curlew,2
-Green Turtle,Olive Ridle,2
-Olive Ridle,Green Turtle,2
-Koala (combined populations of Queensland,Olive Ridle,2
-Olive Ridle,Koala (combined populations of Queensland,2
-Olive Ridle,Red Goshawk,2
-Red Goshawk,Olive Ridle,2
-Olive Ridle,Swift Parrot,2
-Swift Parrot,Olive Ridle,2
-Olive Ridle,White's Seahorse,1
-White's Seahorse,Olive Ridle,1
-Grey Nurse S,Grey Nurse S,1
-Australasian Bittern,Grey Nurse S,1
-Grey Nurse S,Australasian Bittern,1
-Eastern Curlew,Grey Nurse S,1
-Grey Nurse S,Eastern Curlew,1
-Eastern Hooded Plover,Grey Nurse S,1
-Grey Nurse S,Eastern Hooded Plover,1
-Green Turtle,Grey Nurse S,1
-Grey Nurse S,Green Turtle,1
-Grey Nurse S,Koala (combined populations of Queensland,1
-Koala (combined populations of Queensland,Grey Nurse S,1
-Grey Nurse S,Regent Honeyeater,1
-Regent Honeyeater,Grey Nurse S,1
-Grey Nurse S,Swift Parrot,1
-Swift Parrot,Grey Nurse S,1
-Green Turtl,Green Turtl,3
-Australasian Bittern,Green Turtl,2
-Green Turtl,Australasian Bittern,2
-Eastern Curlew,Green Turtl,3
-Green Turtl,Eastern Curlew,3
-Eastern Hooded Plover,Green Turtl,1
-Green Turtl,Eastern Hooded Plover,1
-Green Turtl,Koala (combined populations of Queensland,3
-Koala (combined populations of Queensland,Green Turtl,3
-Green Turtl,New Holland Mouse,1
-New Holland Mouse,Green Turtl,1
-Green Turtl,Regent Honeyeater,2
-Regent Honeyeater,Green Turtl,2
-White's Sea,White's Sea,2
-Eastern Curlew,White's Sea,2
-White's Sea,Eastern Curlew,2
-Koala (combined populations of Queensland,White's Sea,2
-White's Sea,Koala (combined populations of Queensland,2
-Northern Quoll,White's Sea,2
-White's Sea,Northern Quoll,2
-Red Goshawk,White's Sea,2
-White's Sea,Red Goshawk,2
-Regent Honeyeater,White's Sea,2
-White's Sea,Regent Honeyeater,2
-Northern Quoll,White's Seahorse,3
-White's Seahorse,Northern Quoll,3
-Smooth Davidsonia,Smooth Davidsonia,21
-Australasian Bittern,Smooth Davidsonia,21
-Smooth Davidsonia,Australasian Bittern,21
-Eastern Curlew,Smooth Davidsonia,12
-Smooth Davidsonia,Eastern Curlew,12
-Koala (combined populations of Queensland,Smooth Davidsonia,20
-Smooth Davidsonia,Koala (combined populations of Queensland,20
-Native Guava,Smooth Davidsonia,21
-Smooth Davidsonia,Native Guava,21
-Regent Honeyeater,Smooth Davidsonia,21
-Smooth Davidsonia,Regent Honeyeater,21
-Smooth Davidsonia,Swift Parrot,21
-Swift Parrot,Smooth Davidsonia,21
-Pink Underwing Moth,Regent Honeyeater,43
-Regent Honeyeater,Pink Underwing Moth,43
-Pink Underwing Moth,Smooth Davidsonia,14
-Smooth Davidsonia,Pink Underwing Moth,14
-Australasian Bittern,Grey Nurse Shark (east coast population),9
-Grey Nurse Shark (east coast population),Australasian Bittern,9
-Eastern Curlew,Grey Nurse Shark (east coast population),7
-Grey Nurse Shark (east coast population),Eastern Curlew,7
-Grey Nurse Shark (east coast population),New Holland Mouse,2
-New Holland Mouse,Grey Nurse Shark (east coast population),2
-Grey Nurse Shark (east coast population),Swift Parrot,3
-Swift Parrot,Grey Nurse Shark (east coast population),3
-Eastern Hooded Plover,Giant Gippsland Earthworm,2
-Giant Gippsland Earthworm,Eastern Hooded Plover,2
-Glenelg Freshwater Mussel,Southern Bent-wing Bat,7
-Southern Bent-wing Bat,Glenelg Freshwater Mussel,7
-Olive Ridley,Olive Ridley,1
-Australasian Bittern,Olive Ridley,1
-Olive Ridley,Australasian Bittern,1
-Eastern Curlew,Olive Ridley,1
-Olive Ridley,Eastern Curlew,1
-Green Turtle,Olive Ridley,1
-Olive Ridley,Green Turtle,1
-Green Turtle,Pink Underwing Moth,3
-Pink Underwing Moth,Green Turtle,3
-Koala (combined populations of Queensland,Olive Ridley,1
-Olive Ridley,Koala (combined populations of Queensland,1
-Native Guava,Olive Ridley,1
-Olive Ridley,Native Guava,1
-Olive Ridley,Pink Underwing Moth,1
-Pink Underwing Moth,Olive Ridley,1
-Olive Ridley,Red Goshawk,1
-Red Goshawk,Olive Ridley,1
-Olive Ridley,Regent Honeyeater,1
-Regent Honeyeater,Olive Ridley,1
-Olive Ridley,Swift Parrot,1
-Swift Parrot,Olive Ridley,1
-Green,Green,4
-Australasian Bittern,Green,4
-Green,Australasian Bittern,4
-Eastern Curlew,Green,4
-Green,Eastern Curlew,4
-Green,Koala (combined populations of Queensland,4
-Koala (combined populations of Queensland,Green,4
-Green,Native Guava,4
-Native Guava,Green,4
-Green,Red Goshawk,1
-Red Goshawk,Green,1
-Green,Regent Honeyeater,4
-Regent Honeyeater,Green,4
-Green,White's Seahorse,4
-White's Seahorse,Green,4
-Growling Grass Frog,Red Handfish,4
-Red Handfish,Growling Grass Frog,4
-E,E,2
-Australasian Bittern,E,2
-E,Australasian Bittern,2
-Davies' Waxflower,E,2
-E,Davies' Waxflower,2
-Davies' Waxflower,Eastern Curlew,3
-Eastern Curlew,Davies' Waxflower,3
-Davies' Waxflower,Eastern Hooded Plover,6
-Eastern Hooded Plover,Davies' Waxflower,6
-E,Eastern Curlew,2
-Eastern Curlew,E,2
-E,Eastern Hooded Plover,2
-Eastern Hooded Plover,E,2
-E,Growling Grass Frog,2
-Growling Grass Frog,E,2
-E,Swift Parrot,2
-Swift Parrot,E,2
-N,N,1
-Australasian Bittern,N,1
-N,Australasian Bittern,1
-Davies' Waxflower,N,1
-N,Davies' Waxflower,1
-Eastern Curlew,N,1
-N,Eastern Curlew,1
-Eastern Hooded Plover,N,1
-N,Eastern Hooded Plover,1
-Growling Grass Frog,N,1
-N,Growling Grass Frog,1
-N,Swift Parrot,1
-Swift Parrot,N,1
-Australian Sea-lion,Murray Hardyhead,1
-Murray Hardyhead,Australian Sea-lion,1
-Red Goshawk,Smooth Davidsonia,11
-Smooth Davidsonia,Red Goshawk,11
 Australasian Bittern,Brush-tailed Rock-wallaby,20
 Brush-tailed Rock-wallaby,Australasian Bittern,20
-Brush-tailed Rock-wallaby,Pink Underwing Moth,5
-Pink Underwing Moth,Brush-tailed Rock-wallaby,5
-Ammon,Ammon,1
-Ammon,Australasian Bittern,1
-Australasian Bittern,Ammon,1
-Ammon,Eastern Curlew,1
-Eastern Curlew,Ammon,1
-Ammon,Eastern Hooded Plover,1
-Eastern Hooded Plover,Ammon,1
-Ammon,Eastern Quoll,1
-Eastern Quoll,Ammon,1
-Ammon,Growling Grass Frog,1
-Growling Grass Frog,Ammon,1
-Ammon,Red Handfish,1
-Red Handfish,Ammon,1
-Ammon,Swift Parrot,1
-Swift Parrot,Ammon,1
 Australian Sea-lion,Growling Grass Frog,5
 Growling Grass Frog,Australian Sea-lion,5
-Green,Swift Parrot,3
-Swift Parrot,Green,3
-Angle-stemmed Myrtle,Green Turtle,2
-Green Turtle,Angle-stemmed Myrtle,2
-Angle-stemmed Myrtle,Olive Ridle,1
-Olive Ridle,Angle-stemmed Myrtle,1
-Native Guava,Olive Ridle,1
-Olive Ridle,Native Guava,1
-Olive Ridle,Regent Honeyeater,1
-Regent Honeyeater,Olive Ridle,1
-New Holland M,New Holland M,1
-Australasian Bittern,New Holland M,1
-New Holland M,Australasian Bittern,1
-Eastern Curlew,New Holland M,1
-New Holland M,Eastern Curlew,1
-Eastern Hooded Plover,New Holland M,1
-New Holland M,Eastern Hooded Plover,1
-Growling Grass Frog,New Holland M,1
-New Holland M,Growling Grass Frog,1
-New Holland M,Orange-bellied Parrot,1
-Orange-bellied Parrot,New Holland M,1
-New Holland M,Regent Honeyeater,1
-Regent Honeyeater,New Holland M,1
-Ammonite Pinwheel,Ammonite Pinwheel,1
-Ammonite Pinwheel,Australasian Bittern,1
-Australasian Bittern,Ammonite Pinwheel,1
-Ammonite Pinwheel,Eastern Curlew,1
-Eastern Curlew,Ammonite Pinwheel,1
-Ammonite Pinwheel,Eastern Hooded Plover,1
-Eastern Hooded Plover,Ammonite Pinwheel,1
-Ammonite Pinwheel,Eastern Quoll,1
-Eastern Quoll,Ammonite Pinwheel,1
-Ammonite Pinwheel,Growling Grass Frog,1
-Growling Grass Frog,Ammonite Pinwheel,1
-Ammonite Pinwheel,Swift Parrot,1
-Swift Parrot,Ammonite Pinwheel,1
-Australasian Bittern,Georges' Snapping Turtle,4
-Georges' Snapping Turtle,Australasian Bittern,4
-Georges' Snapping Turtle,New Holland Mouse,5
-New Holland Mouse,Georges' Snapping Turtle,5
-Georges' Snapping Turtle,Pink Underwing Moth,5
-Pink Underwing Moth,Georges' Snapping Turtle,5
-Georges' Snapping Turtle,Regent Honeyeater,8
-Regent Honeyeater,Georges' Snapping Turtle,8
-Grey Nurse Sh,Native Guava,1
-Native Guava,Grey Nurse Sh,1
-Border Ranges Lined Fern,Border Ranges Lined Fern,11
-Australasian Bittern,Border Ranges Lined Fern,6
-Border Ranges Lined Fern,Australasian Bittern,6
-Border Ranges Lined Fern,Koala (combined populations of Queensland,10
-Koala (combined populations of Queensland,Border Ranges Lined Fern,10
-Border Ranges Lined Fern,Native Guava,11
-Native Guava,Border Ranges Lined Fern,11
-Border Ranges Lined Fern,Pink Underwing Moth,8
-Pink Underwing Moth,Border Ranges Lined Fern,8
-Border Ranges Lined Fern,Red Goshawk,11
-Red Goshawk,Border Ranges Lined Fern,11
-Border Ranges Lined Fern,Regent Honeyeater,7
-Regent Honeyeater,Border Ranges Lined Fern,7
-Border Ranges Lined Fern,Swift Parrot,11
-Swift Parrot,Border Ranges Lined Fern,11
-Adorned Delma,Angle-stemmed Myrtle,2
-Angle-stemmed Myrtle,Adorned Delma,2
-Adorned Delma,Australasian Bittern,7
-Australasian Bittern,Adorned Delma,7
-Australasian Bittern,Mountain Frog,3
-Mountain Frog,Australasian Bittern,3
-Green Tu,Native Guava,1
-Native Guava,Green Tu,1
-Green Tu,Regent Honeyeater,1
-Regent Honeyeater,Green Tu,1
-Green Tu,Smooth Davidsonia,1
-Smooth Davidsonia,Green Tu,1
-Green Tu,Swift Parrot,1
-Swift Parrot,Green Tu,1
-Sout,Sout,1
-Australasian Bittern,Sout,1
-Sout,Australasian Bittern,1
-Eastern Curlew,Sout,1
-Sout,Eastern Curlew,1
-Eastern Hooded Plover,Sout,1
-Sout,Eastern Hooded Plover,1
-Growling Grass Frog,Sout,1
-Sout,Growling Grass Frog,1
-New Holland Mouse,Sout,1
-Sout,New Holland Mouse,1
-Orange-bellied Parrot,Sout,1
-Sout,Orange-bellied Parrot,1
-Southern Bent-w,Southern Bent-w,1
-Australasian Bittern,Southern Bent-w,1
-Southern Bent-w,Australasian Bittern,1
-Eastern Curlew,Southern Bent-w,1
-Southern Bent-w,Eastern Curlew,1
-Eastern Hooded Plover,Southern Bent-w,1
-Southern Bent-w,Eastern Hooded Plover,1
-Growling Grass Frog,Southern Bent-w,1
-Southern Bent-w,Growling Grass Frog,1
-Orange-bellied Parrot,Southern Bent-w,1
-Southern Bent-w,Orange-bellied Parrot,1
-Plains-wanderer,Southern Bent-w,1
-Southern Bent-w,Plains-wanderer,1
-Green Turtl,Native Guava,1
-Native Guava,Green Turtl,1
-Green Turtl,Red Goshawk,2
-Red Goshawk,Green Turtl,2
-Green Turtl,Swift Parrot,1
-Swift Parrot,Green Turtl,1
-Green Turtl,White's Seahorse,1
-White's Seahorse,Green Turtl,1
 Regent Honeyeater,Southern Bent-wing Bat,6
 Southern Bent-wing Bat,Regent Honeyeater,6
-Glenelg Freshwater Mussel,Swift Parrot,2
-Swift Parrot,Glenelg Freshwater Mussel,2
-Grey Nurse Shark (east coast population),Koala (combined populations of Queensland,6
-Koala (combined populations of Queensland,Grey Nurse Shark (east coast population),6
-Mountain Frog,Native Guava,6
-Native Guava,Mountain Frog,6
-Adorned Delma,Gre,1
-Gre,Adorned Delma,1
-Gre,Northern Quoll,1
-Northern Quoll,Gre,1
-Gre,Red Goshawk,1
-Red Goshawk,Gre,1
-Georges' Snapping Turtle,Red Goshawk,3
-Red Goshawk,Georges' Snapping Turtle,3
-Arnhem Land Egernia,Eastern Curlew,7
-Eastern Curlew,Arnhem Land Egernia,7
-Arnhem Land Egernia,Freshwater Sawfish,7
-Freshwater Sawfish,Arnhem Land Egernia,7
-Arnhem Land Egernia,Green Turtle,3
-Green Turtle,Arnhem Land Egernia,3
-Arnhem Land Egernia,White-throated Grasswren,5
-White-throated Grasswren,Arnhem Land Egernia,5
-Eastern Curlew,White-throated Grasswren,5
-White-throated Grasswren,Eastern Curlew,5
-Freshwater Sawfish,White-throated Grasswren,5
-White-throated Grasswren,Freshwater Sawfish,5
-Green Turtle,White-throated Grasswren,1
-White-throated Grasswren,Green Turtle,1
-Grey Nurse Shark (east coast,Grey Nurse Shark (east coast,1
-Eastern Hooded Plover,Grey Nurse Shark (east coast,1
-Grey Nurse Shark (east coast,Eastern Hooded Plover,1
-Green Turtle,Grey Nurse Shark (east coast,1
-Grey Nurse Shark (east coast,Green Turtle,1
-Grey Nurse Shark (east coast,Koala (combined populations of Queensland,1
-Koala (combined populations of Queensland,Grey Nurse Shark (east coast,1
-Grey Nurse Shark (east coast,Regent Honeyeater,1
-Regent Honeyeater,Grey Nurse Shark (east coast,1
-Grey Nurse Shark (east coast,White's Seahorse,1
-White's Seahorse,Grey Nurse Shark (east coast,1
-Southern B,Southern B,1
-Australasian Bittern,Southern B,1
-Southern B,Australasian Bittern,1
-Eastern Hooded Plover,Southern B,1
-Southern B,Eastern Hooded Plover,1
-Growling Grass Frog,Southern B,1
-Southern B,Growling Grass Frog,1
-Orange-bellied Parrot,Southern B,1
-Southern B,Orange-bellied Parrot,1
-Plains-wanderer,Southern B,1
-Southern B,Plains-wanderer,1
-South-eastern Red-tailed Black-Cockatoo,Southern B,1
-Southern B,South-eastern Red-tailed Black-Cockatoo,1
 Brush-tailed Rock-wallaby,Eastern Hooded Plover,1
 Eastern Hooded Plover,Brush-tailed Rock-wallaby,1
 Brush-tailed Rock-wallaby,Orange-bellied Parrot,1
 Orange-bellied Parrot,Brush-tailed Rock-wallaby,1
 Brush-tailed Rock-wallaby,Plains-wanderer,2
 Plains-wanderer,Brush-tailed Rock-wallaby,2
-Southern,Southern,2
-Australasian Bittern,Southern,2
-Southern,Australasian Bittern,2
-Australian Sea-lion,Southern,1
-Southern,Australian Sea-lion,1
-Eastern Hooded Plover,Southern,2
-Southern,Eastern Hooded Plover,2
-Growling Grass Frog,Southern,2
-Southern,Growling Grass Frog,2
-Orange-bellied Parrot,Southern,2
-Southern,Orange-bellied Parrot,2
-Plains-wanderer,Southern,1
-Southern,Plains-wanderer,1
-Eastern Hooded Plover,Eltham Copper Butterfly,1
-Eltham Copper Butterfly,Eastern Hooded Plover,1
-Gilbert's Potoroo,Gilbert's Potoroo,5
-Australasian Bittern,Gilbert's Potoroo,5
-Gilbert's Potoroo,Australasian Bittern,5
-Australian Sea-lion,Gilbert's Potoroo,5
-Gilbert's Potoroo,Australian Sea-lion,5
-Australian Sea-lion,Noisy Scrub-bird,8
-Noisy Scrub-bird,Australian Sea-lion,8
-Carnaby's Black Cockatoo,Gilbert's Potoroo,5
-Gilbert's Potoroo,Carnaby's Black Cockatoo,5
-Chuditch,Gilbert's Potoroo,4
-Gilbert's Potoroo,Chuditch,4
-Gilbert's Potoroo,Noisy Scrub-bird,5
-Noisy Scrub-bird,Gilbert's Potoroo,5
-Gilbert's Potoroo,Quokka,4
-Quokka,Gilbert's Potoroo,4
-Noisy Scrub-bird,Quokka,8
-Quokka,Noisy Scrub-bird,8
-Border Ranges Lined Fern,Brush-tailed Rock-wallaby,5
-Brush-tailed Rock-wallaby,Border Ranges Lined Fern,5
-Gilbert's Potoroo,Western Ringtail Possum,1
-Western Ringtail Possum,Gilbert's Potoroo,1
-Noisy Scrub-bird,Western Ringtail Possum,2
-Western Ringtail Possum,Noisy Scrub-bird,2
-Gilbert's Potoroo,Malleefowl,1
-Malleefowl,Gilbert's Potoroo,1
-Malleefowl,Noisy Scrub-bird,5
-Noisy Scrub-bird,Malleefowl,5
-Australian Sea-lion,Gre,1
-Gre,Australian Sea-lion,1
-Carnaby's Black Cockatoo,Gre,1
-Gre,Carnaby's Black Cockatoo,1
-Chuditch,Gre,1
-Gre,Chuditch,1
-Eastern Curlew,Gre,1
-Gre,Eastern Curlew,1
-Gre,Malleefowl,1
-Malleefowl,Gre,1
-Gre,Western Ringtail Possum,1
-Western Ringtail Possum,Gre,1
-Golden-shouldered Parrot,Green Turtle,1
-Green Turtle,Golden-shouldered Parrot,1
-Golden-shouldered Parrot,Olive Ridley Turtle,1
-Olive Ridley Turtle,Golden-shouldered Parrot,1
-Eastern Curlew,King Island Brown Thornbill,4
-King Island Brown Thornbill,Eastern Curlew,4
-Eastern Curlew,King Island Scrubtit,3
-King Island Scrubtit,Eastern Curlew,3
-King Island Scrubtit,Swift Parrot,3
-Swift Parrot,King Island Scrubtit,3
-Growling Grass Frog,King Island Scrubtit,2
-King Island Scrubtit,Growling Grass Frog,2
-New Holland Mo,New Holland Mo,1
-Australasian Bittern,New Holland Mo,1
-New Holland Mo,Australasian Bittern,1
-Davies' Waxflower,New Holland Mo,1
-New Holland Mo,Davies' Waxflower,1
-Eastern Hooded Plover,New Holland Mo,1
-New Holland Mo,Eastern Hooded Plover,1
-Eastern Quoll,New Holland Mo,1
-New Holland Mo,Eastern Quoll,1
-Growling Grass Frog,New Holland Mo,1
-New Holland Mo,Growling Grass Frog,1
-New Holland Mo,Swift Parrot,1
-Swift Parrot,New Holland Mo,1
-Murray Hardyhe,Murray Hardyhe,1
-Australasian Bittern,Murray Hardyhe,1
-Murray Hardyhe,Australasian Bittern,1
-Australian Sea-lion,Murray Hardyhe,1
-Murray Hardyhe,Australian Sea-lion,1
-Eastern Hooded Plover,Murray Hardyhe,1
-Murray Hardyhe,Eastern Hooded Plover,1
-Growling Grass Frog,Murray Hardyhe,1
-Murray Hardyhe,Growling Grass Frog,1
-Malleefowl,Murray Hardyhe,1
-Murray Hardyhe,Malleefowl,1
-Murray Hardyhe,Orange-bellied Parrot,1
-Orange-bellied Parrot,Murray Hardyhe,1
-Olive Ridley Turtl,Olive Ridley Turtl,1
-Australasian Bittern,Olive Ridley Turtl,1
-Olive Ridley Turtl,Australasian Bittern,1
-Eastern Curlew,Olive Ridley Turtl,1
-Olive Ridley Turtl,Eastern Curlew,1
-Green Turtle,Olive Ridley Turtl,1
-Olive Ridley Turtl,Green Turtle,1
-Koala (combined populations of Queensland,Olive Ridley Turtl,1
-Olive Ridley Turtl,Koala (combined populations of Queensland,1
-Olive Ridley Turtl,Regent Honeyeater,1
-Regent Honeyeater,Olive Ridley Turtl,1
-Olive Ridley Turtl,White's Seahorse,1
-White's Seahorse,Olive Ridley Turtl,1
-Gree,Gree,1
-Australasian Bittern,Gree,1
-Gree,Australasian Bittern,1
-Eastern Curlew,Gree,1
-Gree,Eastern Curlew,1
-Gree,Koala (combined populations of Queensland,1
-Koala (combined populations of Queensland,Gree,1
-Gree,New Holland Mouse,1
-New Holland Mouse,Gree,1
-Gree,Regent Honeyeater,1
-Regent Honeyeater,Gree,1
-Gree,White's Seahorse,1
-White's Seahorse,Gree,1
-Ad,Ad,1
-Ad,Australasian Bittern,1
-Australasian Bittern,Ad,1
-Ad,Eastern Curlew,1
-Eastern Curlew,Ad,1
-Ad,Eastern Hooded Plover,1
-Eastern Hooded Plover,Ad,1
-Ad,Growling Grass Frog,1
-Growling Grass Frog,Ad,1
-Ad,Orange-bellied Parrot,1
-Orange-bellied Parrot,Ad,1
-Ad,Plains-wanderer,1
-Plains-wanderer,Ad,1
-Ad,Swift Parrot,1
-Swift Parrot,Ad,1
-Australian Sea-,Australian Sea-,1
-Australasian Bittern,Australian Sea-,1
-Australian Sea-,Australasian Bittern,1
-Australian Sea-,Eastern Curlew,1
-Eastern Curlew,Australian Sea-,1
-Australian Sea-,Eastern Hooded Plover,1
-Eastern Hooded Plover,Australian Sea-,1
-Australian Sea-,Growling Grass Frog,1
-Growling Grass Frog,Australian Sea-,1
-Australian Sea-,Orange-bellied Parrot,1
-Orange-bellied Parrot,Australian Sea-,1
-Australian Sea-,Plains-wanderer,1
-Plains-wanderer,Australian Sea-,1
-Grey Nurse Shark (ea,Grey Nurse Shark (ea,1
-Australasian Bittern,Grey Nurse Shark (ea,1
-Grey Nurse Shark (ea,Australasian Bittern,1
-Eastern Hooded Plover,Grey Nurse Shark (ea,1
-Grey Nurse Shark (ea,Eastern Hooded Plover,1
-Green Turtle,Grey Nurse Shark (ea,1
-Grey Nurse Shark (ea,Green Turtle,1
-Grey Nurse Shark (ea,Koala (combined populations of Queensland,1
-Koala (combined populations of Queensland,Grey Nurse Shark (ea,1
-Grey Nurse Shark (ea,New Holland Mouse,1
-New Holland Mouse,Grey Nurse Shark (ea,1
-Grey Nurse Shark (ea,Regent Honeyeater,1
-Regent Honeyeater,Grey Nurse Shark (ea,1
-Grey Nurse Shark (ea,Swift Parrot,1
-Swift Parrot,Grey Nurse Shark (ea,1
-New Holland Mouse,Southern,1
-Southern,New Holland Mouse,1
-Regent Honeyeater,Southern,1
-Southern,Regent Honeyeater,1
-Southern,Swift Parrot,1
-Swift Parrot,Southern,1
-Southern Bent-wing,Southern Bent-wing,1
-Australasian Bittern,Southern Bent-wing,1
-Southern Bent-wing,Australasian Bittern,1
-Eastern Hooded Plover,Southern Bent-wing,1
-Southern Bent-wing,Eastern Hooded Plover,1
-Growling Grass Frog,Southern Bent-wing,1
-Southern Bent-wing,Growling Grass Frog,1
-Orange-bellied Parrot,Southern Bent-wing,1
-Southern Bent-wing,Orange-bellied Parrot,1
-Plains-wanderer,Southern Bent-wing,1
-Southern Bent-wing,Plains-wanderer,1
-Regent Honeyeater,Southern Bent-wing,1
-Southern Bent-wing,Regent Honeyeater,1
-Southern Bent-wing,Swift Parrot,1
-Swift Parrot,Southern Bent-wing,1
 New Holland Mouse,Southern Bent-wing Bat,1
 Southern Bent-wing Bat,New Holland Mouse,1
-Murray Hardyhead,Regent Honeyeater,5
-Regent Honeyeater,Murray Hardyhead,5
-Murray Hardyhead,Swift Parrot,3
-Swift Parrot,Murray Hardyhead,3
-Woods Well Spyridium,Woods Well Spyridium,2
-Australasian Bittern,Woods Well Spyridium,2
-Woods Well Spyridium,Australasian Bittern,2
-Eastern Hooded Plover,Woods Well Spyridium,2
-Woods Well Spyridium,Eastern Hooded Plover,2
-Malleefowl,Woods Well Spyridium,2
-Woods Well Spyridium,Malleefowl,2
-Orange-bellied Parrot,Woods Well Spyridium,2
-Woods Well Spyridium,Orange-bellied Parrot,2
-Brush-tailed Rock-wallaby,Wollemi Pine,5
-Wollemi Pine,Brush-tailed Rock-wallaby,5
-New Holland Mouse,Wollemi Pine,5
-Wollemi Pine,New Holland Mouse,5
-Mu,Mu,1
-Australasian Bittern,Mu,1
-Mu,Australasian Bittern,1
-Growling Grass Frog,Mu,1
-Mu,Growling Grass Frog,1
-Koala (combined populations of Queensland,Mu,1
-Mu,Koala (combined populations of Queensland,1
-Mu,Plains-wanderer,1
-Plains-wanderer,Mu,1
-Mu,Regent Honeyeater,1
-Regent Honeyeater,Mu,1
-Murray Hardyhead,Stiff Groundsel,4
-Stiff Groundsel,Murray Hardyhead,4
-Koala (combined populations of Queensland,Stiff Groundsel,2
-Stiff Groundsel,Koala (combined populations of Queensland,2
-Mountain-top Nursery-frog,Mountain-top Nursery-frog,2
-Koala (combined populations of Queensland,Mountain-top Nursery-frog,2
-Mountain-top Nursery-frog,Koala (combined populations of Queensland,2
-Mountain-top Nursery-frog,Northern Quoll,2
-Northern Quoll,Mountain-top Nursery-frog,2
-Mountain-top Nursery-frog,Red Goshawk,2
-Red Goshawk,Mountain-top Nursery-frog,2
-Mountain-top Nursery-frog,Spectacled Flying-fox,1
-Spectacled Flying-fox,Mountain-top Nursery-frog,1
-Adamson's Blown-grass,Brush-tailed Rock-wallaby,1
-Brush-tailed Rock-wallaby,Adamson's Blown-grass,1
-Australasian Bittern,King Island Brown Thornbill,1
-King Island Brown Thornbill,Australasian Bittern,1
-Australasian Bittern,King Island Scrubtit,1
-King Island Scrubtit,Australasian Bittern,1
 Malleefowl,New Holland Mouse,2
 New Holland Mouse,Malleefowl,2
-Imlay Mallee,Imlay Mallee,2
-Australasian Bittern,Imlay Mallee,2
-Imlay Mallee,Australasian Bittern,2
-Eastern Hooded Plover,Imlay Mallee,1
-Imlay Mallee,Eastern Hooded Plover,1
-Imlay Mallee,Koala (combined populations of Queensland,2
-Koala (combined populations of Queensland,Imlay Mallee,2
-Imlay Mallee,Regent Honeyeater,2
-Regent Honeyeater,Imlay Mallee,2
-Imlay Mallee,Swift Parrot,2
-Swift Parrot,Imlay Mallee,2
 Brush-tailed Rock-wallaby,Green Turtle,3
 Green Turtle,Brush-tailed Rock-wallaby,3
-Eastern Curlew,Stiff Groundsel,1
-Stiff Groundsel,Eastern Curlew,1
-Olive R,Olive R,1
-Australasian Bittern,Olive R,1
-Olive R,Australasian Bittern,1
-Eastern Curlew,Olive R,1
-Olive R,Eastern Curlew,1
-Green Turtle,Olive R,1
-Olive R,Green Turtle,1
-Koala (combined populations of Queensland,Olive R,1
-Olive R,Koala (combined populations of Queensland,1
-Northern Quoll,Olive R,1
-Olive R,Northern Quoll,1
-Olive Ridley Tur,Olive Ridley Tur,1
-Eastern Curlew,Olive Ridley Tur,1
-Olive Ridley Tur,Eastern Curlew,1
-Green Turtle,Olive Ridley Tur,1
-Olive Ridley Tur,Green Turtle,1
-Koala (combined populations of Queensland,Olive Ridley Tur,1
-Olive Ridley Tur,Koala (combined populations of Queensland,1
-Northern Quoll,Olive Ridley Tur,1
-Olive Ridley Tur,Northern Quoll,1
-Olive Ridley Tur,Red Goshawk,1
-Red Goshawk,Olive Ridley Tur,1
-Green T,Green T,2
-Eastern Curlew,Green T,2
-Green T,Eastern Curlew,2
-Green T,Koala (combined populations of Queensland,2
-Koala (combined populations of Queensland,Green T,2
-Green T,Northern Quoll,2
-Northern Quoll,Green T,2
-Green T,Red Goshawk,2
-Red Goshawk,Green T,2
-Green T,Spectacled Flying-fox,2
-Spectacled Flying-fox,Green T,2
-Grey Nurse Shark,Grey Nurse Shark,1
-Australasian Bittern,Grey Nurse Shark,1
-Grey Nurse Shark,Australasian Bittern,1
-Eastern Curlew,Grey Nurse Shark,1
-Grey Nurse Shark,Eastern Curlew,1
-Green Turtle,Grey Nurse Shark,1
-Grey Nurse Shark,Green Turtle,1
-Grey Nurse Shark,Koala (combined populations of Queensland,1
-Koala (combined populations of Queensland,Grey Nurse Shark,1
-Grey Nurse Shark,Native Guava,1
-Native Guava,Grey Nurse Shark,1
-Grey Nurse Shark,New Holland Mouse,1
-New Holland Mouse,Grey Nurse Shark,1
-Grey Nurse Shark,Regent Honeyeater,1
-Regent Honeyeater,Grey Nurse Shark,1
-Grey Nurse Shark,Swift Parrot,1
-Swift Parrot,Grey Nurse Shark,1
-Green Turt,Green Turt,1
-Australasian Bittern,Green Turt,1
-Green Turt,Australasian Bittern,1
-Eastern Curlew,Green Turt,1
-Green Turt,Eastern Curlew,1
-Green Turt,Koala (combined populations of Queensland,1
-Koala (combined populations of Queensland,Green Turt,1
-Green Turt,Native Guava,1
-Native Guava,Green Turt,1
-Green Turt,New Holland Mouse,1
-New Holland Mouse,Green Turt,1
-Green Turt,Pink Underwing Moth,1
-Pink Underwing Moth,Green Turt,1
-Green Turt,Regent Honeyeater,1
-Regent Honeyeater,Green Turt,1
-Green Turt,Swift Parrot,1
-Swift Parrot,Green Turt,1
-Olive,Olive,1
-Australasian Bittern,Olive,1
-Olive,Australasian Bittern,1
-Eastern Curlew,Olive,1
-Olive,Eastern Curlew,1
-Green Turtle,Olive,1
-Olive,Green Turtle,1
-Koala (combined populations of Queensland,Olive,1
-Olive,Koala (combined populations of Queensland,1
-Native Guava,Olive,1
-Olive,Native Guava,1
-Olive,Regent Honeyeater,1
-Regent Honeyeater,Olive,1
-Olive,White's Seahorse,1
-White's Seahorse,Olive,1
-Australian Sea-lion,Kangaroo Island Assassin Spider,1
-Kangaroo Island Assassin Spider,Australian Sea-lion,1
-Margaret River Burrowing Crayfish,Quokka,2
-Quokka,Margaret River Burrowing Crayfish,2
-Margaret River Burrowing Crayfish,Western Ringtail Possum,4
-Western Ringtail Possum,Margaret River Burrowing Crayfish,4
-Giant Andersonia,Giant Andersonia,3
-Carnaby's Black Cockatoo,Giant Andersonia,3
-Giant Andersonia,Carnaby's Black Cockatoo,3
-Giant Andersonia,Malleefowl,3
-Malleefowl,Giant Andersonia,3
-Giant Andersonia,Quokka,3
-Quokka,Giant Andersonia,3
-Giant Andersonia,Small-flowered Snottygobble,3
-Small-flowered Snottygobble,Giant Andersonia,3
-Cauliflower Soft Coral,Eastern Curlew,3
-Eastern Curlew,Cauliflower Soft Coral,3
 Brush-tailed Rock-wallaby,Eastern Curlew,1
 Eastern Curlew,Brush-tailed Rock-wallaby,1
-Gr,Gr,1
-Eastern Curlew,Gr,1
-Gr,Eastern Curlew,1
-Gr,Green Turtle,1
-Green Turtle,Gr,1
-Gr,Koala (combined populations of Queensland,1
-Koala (combined populations of Queensland,Gr,1
-Gr,Olive Ridley Turtle,1
-Olive Ridley Turtle,Gr,1
-Gr,Red Goshawk,1
-Red Goshawk,Gr,1
-Gr,White's Seahorse,1
-White's Seahorse,Gr,1
-Malleefowl,Stiff Groundsel,1
-Stiff Groundsel,Malleefowl,1
-Australasian Bittern,Margaret River Burrowing Crayfish,3
-Margaret River Burrowing Crayfish,Australasian Bittern,3
-Pink Underwing Moth,White's Seahorse,3
-White's Seahorse,Pink Underwing Moth,3
-White's Se,White's Se,1
-Australasian Bittern,White's Se,1
-White's Se,Australasian Bittern,1
-Eastern Curlew,White's Se,1
-White's Se,Eastern Curlew,1
-Koala (combined populations of Queensland,White's Se,1
-White's Se,Koala (combined populations of Queensland,1
-Native Guava,White's Se,1
-White's Se,Native Guava,1
-New Holland Mouse,White's Se,1
-White's Se,New Holland Mouse,1
-Pink Underwing Moth,White's Se,1
-White's Se,Pink Underwing Moth,1
-Regent Honeyeater,White's Se,1
-White's Se,Regent Honeyeater,1
-Swift Parrot,White's Se,1
-White's Se,Swift Parrot,1
-Ammonite Pinwheel Snail,Australasian Bittern,3
-Australasian Bittern,Ammonite Pinwheel Snail,3
-Cauliflower Soft Coral,Native Guava,1
-Native Guava,Cauliflower Soft Coral,1
-Cauliflower Soft Coral,White's,1
-White's,Cauliflower Soft Coral,1
-Native Guava,White's,1
-White's,Native Guava,1
-New Holland Mouse,White's,1
-White's,New Holland Mouse,1
-Regent Honeyeater,White's,1
-White's,Regent Honeyeater,1
-Swift Parrot,White's,1
-White's,Swift Parrot,1
-Ne,Ne,1
-Australasian Bittern,Ne,1
-Ne,Australasian Bittern,1
-Cauliflower Soft Coral,Eastern Hooded Plover,1
-Eastern Hooded Plover,Cauliflower Soft Coral,1
-Cauliflower Soft Coral,Ne,1
-Ne,Cauliflower Soft Coral,1
-Eastern Curlew,Ne,1
-Ne,Eastern Curlew,1
-Eastern Hooded Plover,Ne,1
-Ne,Eastern Hooded Plover,1
-Koala (combined populations of Queensland,Ne,1
-Ne,Koala (combined populations of Queensland,1
-Ne,Regent Honeyeater,1
-Regent Honeyeater,Ne,1
-Ne,Swift Parrot,1
-Swift Parrot,Ne,1
-Grey Nurse Shark (,Grey Nurse Shark (,1
-Australasian Bittern,Grey Nurse Shark (,1
-Grey Nurse Shark (,Australasian Bittern,1
-Eastern Curlew,Grey Nurse Shark (,1
-Grey Nurse Shark (,Eastern Curlew,1
-Green Turtle,Grey Nurse Shark (,1
-Grey Nurse Shark (,Green Turtle,1
-Grey Nurse Shark (,Koala (combined populations of Queensland,1
-Koala (combined populations of Queensland,Grey Nurse Shark (,1
-Grey Nurse Shark (,Regent Honeyeater,1
-Regent Honeyeater,Grey Nurse Shark (,1
-Grey Nurse Shark (,White's Seahorse,1
-White's Seahorse,Grey Nurse Shark (,1
-Angle-stemmed Myrtle,White's Seahorse,1
-White's Seahorse,Angle-stemmed Myrtle,1
-Ammonite Pinwheel Snail,Eastern Hooded Plover,1
-Eastern Hooded Plover,Ammonite Pinwheel Snail,1
-Murray,Murray,1
-Australasian Bittern,Murray,1
-Murray,Australasian Bittern,1
-Black-eared Miner,Murray,1
-Murray,Black-eared Miner,1
-Growling Grass Frog,Murray,1
-Murray,Growling Grass Frog,1
-Koala (combined populations of Queensland,Murray,1
-Murray,Koala (combined populations of Queensland,1
-Malleefowl,Murray,1
-Murray,Malleefowl,1
-Bulberin Nut,Kroombit Tinker Frog,1
-Kroombit Tinker Frog,Bulberin Nut,1
-Eastern Curlew,Woods Well Spyridium,1
-Woods Well Spyridium,Eastern Curlew,1
-Australasian Bittern,Forked Spyridium,1
-Forked Spyridium,Australasian Bittern,1
-Adorned Delma,Kroombit Tinker Frog,1
-Kroombit Tinker Frog,Adorned Delma,1
-Bulberin Nut,Eastern Curlew,1
-Eastern Curlew,Bulberin Nut,1
-Australasian Bittern,Wollemi Pine,2
-Wollemi Pine,Australasian Bittern,2
-Carrington Falls Pomaderris,Carrington Falls Pomaderris,1
-Australasian Bittern,Carrington Falls Pomaderris,1
-Carrington Falls Pomaderris,Australasian Bittern,1
-Carrington Falls Pomaderris,Koala (combined populations of Queensland,1
-Koala (combined populations of Queensland,Carrington Falls Pomaderris,1
-Carrington Falls Pomaderris,New Holland Mouse,1
-New Holland Mouse,Carrington Falls Pomaderris,1
-Carrington Falls Pomaderris,Regent Honeyeater,1
-Regent Honeyeater,Carrington Falls Pomaderris,1
-Carrington Falls Pomaderris,Swift Parrot,1
-Swift Parrot,Carrington Falls Pomaderris,1
-Ammonite Pinwheel Snail,Eastern Curlew,1
-Eastern Curlew,Ammonite Pinwheel Snail,1
-Grey Nurse Shark (east coast population),Red Goshawk,1
-Red Goshawk,Grey Nurse Shark (east coast population),1
-Adorned Delma,New Holland Mouse,3
-New Holland Mouse,Adorned Delma,3
-Spe,Spe,1
-Eastern Curlew,Mountain-top Nursery-frog,1
-Mountain-top Nursery-frog,Eastern Curlew,1
-Eastern Curlew,Spe,1
-Spe,Eastern Curlew,1
-Koala (combined populations of Queensland,Spe,1
-Spe,Koala (combined populations of Queensland,1
-Mountain-top Nursery-frog,Spe,1
-Spe,Mountain-top Nursery-frog,1
-Northern Quoll,Spe,1
-Spe,Northern Quoll,1
-Red Goshawk,Spe,1
-Spe,Red Goshawk,1
-Stirling Range Dryandra,Stirling Range Dryandra,1
-Carnaby's Black Cockatoo,Stirling Range Dryandra,1
-Stirling Range Dryandra,Carnaby's Black Cockatoo,1
-Giant Andersonia,Stirling Range Dryandra,1
-Stirling Range Dryandra,Giant Andersonia,1
-Malleefowl,Stirling Range Dryandra,1
-Stirling Range Dryandra,Malleefowl,1
-Quokka,Stirling Range Dryandra,1
-Stirling Range Dryandra,Quokka,1
-Small-flowered Snottygobble,Stirling Range Dryandra,1
-Stirling Range Dryandra,Small-flowered Snottygobble,1
-Giant Andersonia,Numbat,1
-Numbat,Giant Andersonia,1
-Numbat,Small-flowered Snottygobble,1
-Small-flowered Snottygobble,Numbat,1
-Margaret River Burrowing Crayfish,White-bellied Frog,1
-White-bellied Frog,Margaret River Burrowing Crayfish,1
-Eastern Curlew,Margaret River Burrowing Crayfish,1
-Margaret River Burrowing Crayfish,Eastern Curlew,1
-Green Turtle,Margaret River Burrowing Crayfish,1
-Margaret River Burrowing Crayfish,Green Turtle,1
-Oli,Oli,1
-Eastern Curlew,Oli,1
-Oli,Eastern Curlew,1
-Green Turtle,Oli,1
-Oli,Green Turtle,1
-Koala (combined populations of Queensland,Oli,1
-Oli,Koala (combined populations of Queensland,1
-Native Guava,Oli,1
-Oli,Native Guava,1
-Northern Quoll,Oli,1
-Oli,Northern Quoll,1
-Oli,Red Goshawk,1
-Red Goshawk,Oli,1
-Arnhem Land Egernia,Olive Ridley Turtle,1
-Olive Ridley Turtle,Arnhem Land Egernia,1
-Adorned,Adorned,1
-Adorned,Brush-tailed Rock-wallaby,1
-Brush-tailed Rock-wallaby,Adorned,1
-Adorned,Koala (combined populations of Queensland,1
-Koala (combined populations of Queensland,Adorned,1
-Adorned,Northern Quoll,1
-Northern Quoll,Adorned,1
-Adorned,Red Goshawk,1
-Red Goshawk,Adorned,1
-Adorned,Regent Honeyeater,1
-Regent Honeyeater,Adorned,1
-Adorned,Swift Parrot,1
-Swift Parrot,Adorned,1
-Grey Nurse Shark (east coast populat,Grey Nurse Shark (east coast populat,1
-Green Turtle,Grey Nurse Shark (east coast populat,1
-Grey Nurse Shark (east coast populat,Green Turtle,1
-Grey Nurse Shark (east coast populat,Koala (combined populations of Queensland,1
-Koala (combined populations of Queensland,Grey Nurse Shark (east coast populat,1
-Grey Nurse Shark (east coast populat,Olive Ridley Turtle,1
-Olive Ridley Turtle,Grey Nurse Shark (east coast populat,1
-Grey Nurse Shark (east coast populat,Swift Parrot,1
-Swift Parrot,Grey Nurse Shark (east coast populat,1
-Grey Nurse Shark (east coast populat,White's Seahorse,1
-White's Seahorse,Grey Nurse Shark (east coast populat,1
-Grey Nu,Grey Nu,1
-Australasian Bittern,Grey Nu,1
-Grey Nu,Australasian Bittern,1
-Green Turtle,Grey Nu,1
-Grey Nu,Green Turtle,1
-Grey Nu,Koala (combined populations of Queensland,1
-Koala (combined populations of Queensland,Grey Nu,1
-Grey Nu,Native Guava,1
-Native Guava,Grey Nu,1
-Grey Nu,Pink Underwing Moth,1
-Pink Underwing Moth,Grey Nu,1
-Grey Nu,Regent Honeyeater,1
-Regent Honeyeater,Grey Nu,1
-Grey Nu,Swift Parrot,1
-Swift Parrot,Grey Nu,1
-Grey Nu,White's Seahorse,1
-White's Seahorse,Grey Nu,1
-Koala (combined populations of Que,Koala (combined populations of Que,1
-Australasian Bittern,Koala (combined populations of Que,1
-Koala (combined populations of Que,Australasian Bittern,1
-Border Ranges Lined Fern,Koala (combined populations of Que,1
-Koala (combined populations of Que,Border Ranges Lined Fern,1
-Border Ranges Lined Fern,Smooth Davidsonia,1
-Smooth Davidsonia,Border Ranges Lined Fern,1
-Koala (combined populations of Que,Native Guava,1
-Native Guava,Koala (combined populations of Que,1
-Koala (combined populations of Que,Pink Underwing Moth,1
-Pink Underwing Moth,Koala (combined populations of Que,1
-Koala (combined populations of Que,Red Goshawk,1
-Red Goshawk,Koala (combined populations of Que,1
-Koala (combined populations of Que,Regent Honeyeater,1
-Regent Honeyeater,Koala (combined populations of Que,1
-Koala (combined populations of Que,Smooth Davidsonia,1
-Smooth Davidsonia,Koala (combined populations of Que,1
-Koala (combined populations of Que,Swift Parrot,1
-Swift Parrot,Koala (combined populations of Que,1
-New Holla,New Holla,1
-Australasian Bittern,New Holla,1
-New Holla,Australasian Bittern,1
-Border Ranges Lined Fern,New Holla,1
-New Holla,Border Ranges Lined Fern,1
-Koala (combined populations of Queensland,New Holla,1
-New Holla,Koala (combined populations of Queensland,1
-Native Guava,New Holla,1
-New Holla,Native Guava,1
-New Holla,Pink Underwing Moth,1
-Pink Underwing Moth,New Holla,1
-New Holla,Red Goshawk,1
-Red Goshawk,New Holla,1
-New Holla,Regent Honeyeater,1
-Regent Honeyeater,New Holla,1
-New Holla,Swift Parrot,1
-Swift Parrot,New Holla,1
-Grey Nurse Shark (east coast population),Native Guava,1
-Native Guava,Grey Nurse Shark (east coast population),1
-Malleefowl,Wollemi Pine,1
-Wollemi Pine,Malleefowl,1
-Angle-stemmed Myrtle,Olive Ridley Turtle,1
-Olive Ridley Turtle,Angle-stemmed Myrtle,1
-Brush-tailed Rock-wallaby,Smooth Davidsonia,1
-Smooth Davidsonia,Brush-tailed Rock-wallaby,1
-Green Turtl,Northern Quoll,1
-Northern Quoll,Green Turtl,1
