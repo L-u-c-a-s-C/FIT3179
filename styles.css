@@ -1,0 +1,70 @@
+.page {
+  width: 1200px;
+  background-color: white;
+  margin: auto;
+
+  padding: 20px;
+
+}
+
+.pure-g {
+    margin-bottom: 15px;
+}
+
+
+.pure-u-1-2 {
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+h2 {
+  font-weight: 600;
+  text-align: center;
+}
+
+.vis-container {
+    width: 600px;
+    height: 500px;
+    justify-content: center;  
+    align-items: center;     
+    padding: 10px;        
+}
+
+#vis1 .vega-bindings {
+    position: absolute;
+    top: 460px;
+    left: 20px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+#vis2 .vega-bindings {
+    position: absolute;
+    top: 460px;
+    left: 20px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.vg-tooltip .key {
+  color: black !important;
+}
+
+.vg-tooltip .value {
+  color:gray !important;
+}
+
+.description p {
+  font-size: 12px
+}
+
+.description-right {
+  padding-left: 20px;
+}
+
+.description-left {
+  padding-right: 20px;
+}
+
+
+

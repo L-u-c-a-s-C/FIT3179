@@ -1,0 +1,60 @@
+{
+"$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+"width": "container",
+"height": "container",
+
+"title": "Which species were most often observed together?",
+
+"config": {
+    "title": {
+        "fontSize": 15,
+        "fontWeight":"bold"
+    },
+
+    "legend": {
+        "titleFontSize": 12,
+        "titleFontWeight": "bold",
+        "labelFontSize": 12,
+        "orient": "left"
+    },
+
+    "view": {
+    "stroke": "black"
+  }
+},
+
+"data": {"url": "https://raw.githubusercontent.com/L-u-c-a-s-C/FIT3179/refs/heads/main/tsap_cooccurrences.csv"},
+
+"mark": "rect",
+
+"encoding": {
+    "x": {
+        "field": "Species1", 
+        "type": "nominal", 
+        "title": null,
+
+        "axis": {
+            "labelAngle": -30
+        }
+    },
+
+    "y": {
+        "field": "Species2", 
+        "type": "nominal", 
+        "title": null,
+
+        "axis": {
+            "orient":"right"
+        }
+    },
+
+    "color": {"field": "Count", "type": "quantitative"},
+
+    "tooltip": [
+        {"field": "Species1", "type": "nominal", "title": "Species 1: "},
+        {"field": "Species2", "type": "nominal", "title": "Species 2: "},
+        {"field": "Count", "type": "nominal", "title": "Co-occurrences: "}
+    ]
+}
+
+}

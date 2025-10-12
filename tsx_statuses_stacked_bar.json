@@ -1,0 +1,83 @@
+{
+"$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+"width": "container",
+"height": "container",
+
+"title": "How are threatened are species in each state?",
+
+"config": {
+    "title": {
+        "fontSize": 15,
+        "fontWeight":"bold"
+    },
+
+    "legend": {
+        "titleFontSize": 12,
+        "titleFontWeight": "bold",
+        "labelFontSize": 12
+    },
+
+    "view": {
+    "stroke": "black"
+  }
+},
+
+"data": {"url": "https://raw.githubusercontent.com/L-u-c-a-s-C/FIT3179/refs/heads/main/tsx_no_time_series.csv"},
+
+"transform": [
+   {"filter": "datum.State != 'Commonwealth'"},
+
+   {
+        "aggregate": [{"op": "count", "as": "Count"}], 
+        "groupby": ["State", "MaxStatus"]
+    },
+
+   {
+        "joinaggregate": [{"op": "sum", "field": "Count", "as": "TotalPerState"}],
+        "groupby": ["State"]
+   },
+
+   {
+        "calculate": "datum.Count / datum.TotalPerState",
+        "as": "ProportionPerState"
+   }
+],
+
+"mark": "bar",
+
+"encoding": {
+    "x": {
+        "field": "State",
+        "type": "nominal",
+        "title": null,
+        "axis": {
+            "labelAngle": -30
+        }
+    },
+
+    "y": {
+        "field":"ProportionPerState",
+        "type": "quantitative", 
+        "axis": {"title": null, "format": "%"},
+        "scale": {"domain": [0, 1]}
+    },
+
+    "color": {
+        "field": "MaxStatus",
+        "type": "nominal",
+
+        "scale": {
+            "domain": ["Near Threatened", "Vulnerable", "Endangered", "Critically Endangered"],
+            "range": ["#fef0d9", "#fdcc8a", "#fc8d59", "#d7301f"]
+        },
+
+        "legend": {"title": "Threatened Status"}
+    },
+
+    "tooltip": [
+        {"field": "State", "type": "nominal"},
+        {"field": "MaxStatus", "type": "nominal", "title": "Status"},
+        {"field": "ProportionPerState", "type": "quantitative", "title": "Proportion", "format": ".2%"}
+    ]
+}
+}

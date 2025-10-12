@@ -1,0 +1,157 @@
+{
+"$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+"title": "Areas where TSAP priority species occur",
+"width": "container",
+"height": "container",
+
+"projection": {"type": "equirectangular"},
+
+"config": {
+    "title": {
+        "fontSize": 15,
+        "fontWeight":"bold"
+    },
+
+    "legend": {
+        "titleFontSize": 12,
+        "titleFontWeight": "bold",
+        "labelFontSize": 12
+    },
+
+    "view": {
+    "stroke": "black",
+    "fill": "#def3f6"
+  }
+},
+
+"data": {
+        "url": "https://raw.githubusercontent.com/L-u-c-a-s-C/FIT3179/refs/heads/main/tsap_densities_first_common.json",
+        "format": {"type": "topojson", "feature": "tsap_densities_first_common"}
+},
+
+"params": [
+    { 
+        "name": "Count_Filter",
+        "bind": {
+            "input": "select",
+            "options": [null, 1, 2, 3, 4, 5, 6, 7],
+            "labels": ["All", "1", "2", "3", "4", "5", "6", "7+"],
+            "name": "Choose species per area: "
+        }
+    }   
+],
+
+"transform": [
+    {"filter": "Count_Filter == null ? true : Count_Filter == '7+' ? datum.properties.COUNT_ >= 7 : datum.properties.COUNT_ == Count_Filter"}
+],
+
+"layer": [
+{   
+    "data": {
+        "url": "https://raw.githubusercontent.com/L-u-c-a-s-C/FIT3179/refs/heads/main/australia_simplified.json",
+        "format": {"type": "topojson", "feature": "states_and_territories"}
+    },
+
+    "mark": {
+        "type": "geoshape",
+        "fill": "#ffffd9",
+        "stroke": null,
+        "strokeWidth":0
+    }
+},
+
+{
+    "mark": {
+        "type": "geoshape"
+    },
+
+    "params": [
+        {"name": "select", "select": "point"}
+    ],
+
+    "encoding": {
+        "color": {
+            "field": "properties.COUNT_",
+            "type":"quantitative",
+            "scale": {
+                "type":"threshold",
+                "domain":[0, 1, 2, 3, 4, 5, 6, 7],
+                "range": [
+                    "#ffffd9",
+                    "#edf8b1",
+                    "#c7e9b4",
+                    "#7fcdbb",
+                    "#41b6c4",
+                    "#1d91c0",
+                    "#225ea8",
+                    "#0c2c84",
+                    "#081d58"
+                ]
+            },
+
+            "legend": {
+                "title": ["Number of different", "species observed"],
+                "labelExpr": "datum.label == '7' ? '≥ 7' : datum.label"
+            }
+        },
+
+        "fillOpacity": {
+            "condition": {"param": "select", "value": 1},
+            "value": 0.2
+        },
+
+        "strokeWidth": {
+            "condition": [
+                {
+                    "param": "select",
+                    "empty": false,
+                    "value": 2
+                }
+            ],
+
+            "value": 0
+        },
+
+        "tooltip": [
+            {"field": "properties.COUNT_", "type": "quantitative", "title": "Count"},
+            {"field": "properties.COMMON_NAM", "type":"nominal", "title": "Species observed"}
+        ]
+    }
+},
+
+{
+    "mark": "text",
+
+    "data": {
+        "values": [
+            {"x": 121, "y":-11, "text": ["Threatened species are more", "diverse along coastlines"]}
+        ]
+    },
+
+    "encoding":{
+        "longitude":{"field": "x"},
+        "latitude":{"field": "y"},
+        "text":{"field": "text"}
+    }
+},
+
+{
+    "mark": "rect",
+
+    "data": {
+        "values": [{"long1": 114, "long2": 128, "lat1": -10, "lat2": -13}]
+    },
+
+    "encoding": {
+        "longitude":{"field":"long1"},
+        "longitude2":{"field":"long2"},
+        "latitude":{"field":"lat1"},
+        "latitude2":{"field":"lat2"},
+
+        "opacity": {"value": 0.2},
+        "color": {"value": "#bdbdbd"}
+    }
+}
+]
+
+}

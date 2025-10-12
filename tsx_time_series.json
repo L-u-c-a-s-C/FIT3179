@@ -1,0 +1,67 @@
+{
+"$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+"width": "container",
+"height": "container",
+
+"title": "Proportional Abundance Over Time",
+
+"config": {
+    "title": {
+        "fontSize": 15,
+        "fontWeight":"bold"
+    },
+
+    "legend": {
+        "titleFontSize": 12,
+        "titleFontWeight": "bold",
+        "labelFontSize": 12
+    },
+
+    "view": {
+    "stroke": "black"
+  }
+},
+
+"data": {"url": "https://raw.githubusercontent.com/L-u-c-a-s-C/FIT3179/refs/heads/main/tsx_time_series_data.csv"},
+
+"mark": {"type": "line"},
+
+"transform": [
+    {"filter": "datum.TaxonomicGroup != 'All'"}
+],
+
+"encoding": {
+    "x": {
+        "field": "year",
+        "title": null
+    },
+
+    "y": {
+        "field": "value",
+        "type": "quantitative",
+        "title": null
+    },
+
+    "color": {
+        "field": "TaxonomicGroup",
+
+        "scale": {
+            "domain": [
+                "Birds",
+                "Mammals",
+                "Plants",
+                "Amphibians"
+            ],
+
+            "range": [
+                "#984ea3",
+                "#e41a1c",
+                "#4daf4a",
+                "#377eb8"
+            ]
+        },        
+        "legend": {"title": null, "offset": -90}
+    }
+}
+
+}

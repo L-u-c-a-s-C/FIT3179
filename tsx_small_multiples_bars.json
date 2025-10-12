@@ -1,0 +1,96 @@
+{
+"$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+"width": 200,
+"height": 150,
+
+"title": "How threatened is each taxonomic group?",
+
+"config": {
+    "title": {
+        "fontSize": 15,
+        "fontWeight":"bold"
+    },
+
+    "legend": {
+        "titleFontSize": 12,
+        "titleFontWeight": "bold",
+        "labelFontSize": 12
+    },
+
+    "view": {
+        "stroke": "black"
+    },
+
+    "header": {
+        "labelFontSize": 12,
+        "labelFontStyle": "bold"
+    }
+},
+
+"data": {"url": "https://raw.githubusercontent.com/L-u-c-a-s-C/FIT3179/refs/heads/main/tsx_no_time_series.csv"},
+
+"transform": [
+   {"filter": "datum.State != 'Commonwealth'"},
+
+   {
+        "aggregate": [{"op": "count", "as": "Count"}], 
+        "groupby": ["TaxonomicGroup", "MaxStatus"]
+    },
+
+   {
+        "joinaggregate": [{"op": "sum", "field": "Count", "as": "TotalPerGroup"}],
+        "groupby": ["TaxonomicGroup"]
+   },
+
+   {
+        "calculate": "datum.Count / datum.TotalPerGroup",
+        "as": "ProportionPerGroup"
+   }
+],
+
+"mark": "bar",
+
+"encoding": {
+    "facet": {
+        "field": "TaxonomicGroup", 
+        "type": "nominal", 
+        "columns": 2,
+        "title": null
+    },
+
+    "x": {
+        "field": "MaxStatus", 
+        "type": "nominal",
+        "title": null,
+        "axis": {
+            "labelAngle": -30
+        }
+    },
+
+    "y": {
+        "field":"ProportionPerGroup", 
+        "type": "quantitative",
+        "axis":{"title":null, "format":"%"}
+    },
+
+    "color": {
+        "field": "MaxStatus", 
+        "type": "nominal",
+
+        "scale": {
+            "domain": ["Near Threatened", "Vulnerable", "Endangered", "Critically Endangered"],
+            "range": ["#fef0d9", "#fdcc8a", "#fc8d59", "#d7301f"]
+        },
+        
+        "legend": null
+    },
+
+    "tooltip": [
+        {"field": "TaxonomicGroup", "type": "nominal", "title":"Taxonomic Group"},
+        {"field": "MaxStatus", "type": "nominal", "title": "Status"},
+        {"field": "ProportionPerGroup", "type": "quantitative", "title": "Proportion", "format": ".2%"}
+    ]
+}
+
+}
+
