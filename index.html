@@ -2,7 +2,7 @@
 <html>
 
 <head>
-  <title>Homework Week 10</title>
+  <title>Australia's Threatened Species</title>
   <!-- Import Vega & Vega-Lite (does not have to be from CDN) -->
   <script src="https://cdn.jsdelivr.net/npm/vega@5.20.2"></script>
   <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.1.0"></script>
@@ -19,7 +19,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
 
   <!-- CSS file -->
-  <link rel="stylesheet" type="text/css" href="Homework10_styles.css" media="all">
+  <link rel="stylesheet" type="text/css" href="styles.css" media="all">
 
 </head>
 
@@ -31,14 +31,104 @@
   </div>
 
   <div class="page">
-    <!-- pure grid group -->
+    <!-- pure grid group: TSAP and TSX maps -->
     <div class="pure-g">
       <div class="pure-u-1-2">
-        <div id="vis1" class="vis-container"></div>
+        <div id="TSAP_MAP" class="vis-container"></div>
       </div>
 
       <div class="pure-u-1-2">
-        <div id="vis2" class="vis-container"></div>
+        <div id="TSX_MAP" class="vis-container"></div>
+      </div>
+    </div>
+    <!-- end pure grid group -->
+
+    <!-- pure grid group: annotations for TSAP and TSX maps -->
+    <div class="pure-g">
+      <div class="pure-u-1-2">
+        <div class="description description-left">
+        <p>
+        The Australian Government's Department of Climate Change, Energy,
+        the Environment, and Water (DCCEW) published the Threatened Species
+        Action Plan (TSAP) 2022-2032 in 2022, detailling their strategies for 
+        the recovery of a number of threatened species across Australia. 
+        This map visualises areas where these species, known as priority species,
+        had been observed or were known to be likely to occur as of 2022. 
+        </p>
+        </div>
+      </div>
+
+      <div class="pure-u-1-2">
+        <div class="description description-right">
+        <p>
+        The Threatened Species Index (TSX) is a TERN project combining monitoring data 
+        from over 230 different sources. This map shows the centres of IBRA subregions 
+        where monitoring sites were located- these regions are classified based on common 
+        factors like climate, geography, and vegetation. 
+        </p>
+        <p>
+        Each monitoring site records data for one threatened species, these species can be 
+        classified by taxonomic group into amphibians, birds, mammals and plants. It can be 
+        seen that birds are the most common taxonomic group to be monitored, with mammals as 
+        the second most common and amphibians and plants roughly equal. 
+        </p>
+      </div>
+    </div>
+    <!-- end pure grid group -->
+
+    <!-- pure grid group: TSAP heatmap and TSX time series -->
+    <div class="pure-g">
+      <div class="pure-u-1-2">
+        <div id="TSAP_HEATMAP" class="vis-container"></div>
+      </div>
+
+      <div class="pure-u-1-2">
+        <div id="TSX_TIME_SERIES" class="vis-container"></div>
+      </div>
+    </div>
+    <!-- end pure grid group -->
+
+        <!-- pure grid group: annotations for TSAP heatmap and TSX time series -->
+    <div class="pure-g">
+      <div class="pure-u-1-2">
+        <div class="description description-left">
+        <p>
+        Many of the areas on the TSAP map contain multiple species. The heatmap above
+        shows how often the most common 20 species occur together with each other. 
+        White squares indicate when species never occurred together. Along the diagonal,
+        co-occurrences of species with themselves indicate how many total areas they
+        were observed in. 
+        </p>
+        </div>
+      </div>
+
+      <div class="pure-u-1-2">
+        <div class="description description-right">
+        <p>
+        The TSX collates records of abundance for each species to determine the change in 
+        their population over time. Data for each year represents the change in population
+        since the last year, with the reference value 1 being the abundance in the first 
+        recorded year, 1985.
+        </p>
+
+        <p>
+        It can be observed that amphibians experienced the most rapid decline in population.
+        While the other taxonomic groups largely only declined in population, mammals actually 
+        experienced some reasonable increases in the early year. Despite this, populations of all
+        species reduced by as much as 40% of their original values by 2021.
+        </p>
+      </div>
+    </div>
+    <!-- end pure grid group -->
+
+    <!-- pure grid group: TSX small multiples bar charts and stacked bar chart-->
+    <div class="pure-g">
+      <div class="pure-u-1-2">
+        <div id="TSX_STACKED_BAR" class="vis-container"></div>
+      </div>
+
+      <div class="pure-u-1-2">
+        <div id="TSX_SMALL_MULTIPLES" class="vis-container"></div>
       </div>
     </div>
     <!-- end pure grid group -->
@@ -46,15 +136,39 @@
   </div> <!-- end page -->
 
   <script type="text/javascript">
-    var tsap_map = "./Homework10_tsap_map.json";
-    var tsx_map = "./Homework10_tsx_map.json";
+    var tsap_map = "./tsap_map.json";
+    var tsx_map = "./tsx_map.json";
+    var tsap_heatmap = "./tsap_coocurrence_heatmap.json"
+    var tsx_time_series = "./tsx_time_series.json"
+    var tsx_stacked_bar = "./tsx_statuses_stacked_bar.json"
+    var tsx_small_multiples = "./tsx_small_multiples_bars.json"
 
-    vegaEmbed('#vis1', tsap_map, { 
+    vegaEmbed('#TSAP_MAP', tsap_map, { 
       "actions": false,
       tooltip: {theme: 'custom'}
     })
 
-    vegaEmbed('#vis2', tsx_map, { 
+    vegaEmbed('#TSX_MAP', tsx_map, { 
+      "actions": false,
+      tooltip: {theme: 'custom'}
+    });
+
+    vegaEmbed('#TSAP_HEATMAP', tsap_heatmap, { 
+      "actions": false,
+      tooltip: {theme: 'custom'}
+    });
+
+    vegaEmbed('#TSX_TIME_SERIES', tsx_time_series, { 
+      "actions": false,
+      tooltip: {theme: 'custom'}
+    });
+
+    vegaEmbed('#TSX_STACKED_BAR', tsx_stacked_bar, { 
+      "actions": false,
+      tooltip: {theme: 'custom'}
+    });
+
+    vegaEmbed('#TSX_SMALL_MULTIPLES', tsx_small_multiples, { 
       "actions": false,
       tooltip: {theme: 'custom'}
     });
