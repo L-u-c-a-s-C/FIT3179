@@ -1,0 +1,93 @@
+body *{
+  font-family: 'Open Sans'
+}
+
+body {
+  background-color:white;
+}
+
+h2 {
+  font-weight: 600;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.row.title-row {
+  justify-content: center;
+}
+
+.page {
+  width: 1400px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  background-color: white;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;  
+  gap: 20px;                       
+  margin-bottom: 15px;             
+}
+
+.col {
+  flex: 1;                          
+  display: flex;
+  justify-content: center;          
+}
+
+.card {
+  width: 650px;                  
+  height: 600px;
+  background-color: white;
+  border: 3px solid #deebf7;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.text-card {
+  width: 600px;
+  text-align: justify;
+  line-height: 1.5;
+}
+
+#TSAP_MAP .vega-bindings,
+#TSX_MAP .vega-bindings {
+  position: absolute;
+  bottom: 15px;  
+  left: 15px;    
+
+  font-family: 'Open Sans', sans-serif !important;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+#TSX_TIME_SERIES .vega-bindings {
+  position: absolute;   
+  bottom: 10px;         
+  left: 10px;     
+  
+  font-family: 'Open Sans', sans-serif !important;
+  font-size: 14px;
+  font-weight: bold;  
+}
+
+.vg-tooltip {
+  font-family: 'Open Sans', sans-serif !important;
+  font-size: 14px !important;
+  color: black !important;
+  border-radius: 6px !important;
+}
+
+.vg-tooltip .key {
+  color: black !important;
+}
+
+.vg-tooltip .value {
+  color:gray !important;
+}
+
+
+
+
+

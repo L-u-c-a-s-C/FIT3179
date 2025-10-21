@@ -1,0 +1,160 @@
+{
+"$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+"width": "container",
+"height": "container",
+
+"title": {
+    "text": "What types of surveys were performed?"
+},
+
+"config": {
+    "title": {
+        "fontSize": 18,
+        "fontWeight":"bold",
+        "dy": 40
+    },
+
+    "legend": {
+        "titleFontSize": 14,
+        "titleFontWeight": "bold",
+        "labelFontSize": 14,
+        "labelLimit": 300
+    },
+
+    "axis": {
+        "labelFontSize": 12,   
+        "titleFontSize": 12,   
+        "titleFontWeight": "bold",
+        "labelFont": "Open Sans",
+        "titleFont": "Open Sans"
+    },
+
+    "view": {
+        "stroke": null
+    },
+
+    "text": {
+        "font": "Open Sans",
+        "fontSize": 12
+    }
+},
+
+"data": {"url": "https://raw.githubusercontent.com/L-u-c-a-s-C/FIT3179/refs/heads/main/tsx_no_time_series.csv"},
+
+"transform": [
+    {
+        "aggregate": [{"op": "count", "as": "CountForRanking"}], 
+        "groupby": ["SearchTypeDesc"]
+    },
+
+    {
+        "window": [{"op": "rank", "as": "SearchCountRank"}],
+        "sort": [{"field": "CountForRanking", "order":"descending"}]
+    },
+
+    
+    {
+        "calculate": "datum.SearchCountRank <= 8 ? datum.SearchTypeDesc : 'Other'", 
+        "as": "PieDivisions"
+    },
+
+    {
+        "aggregate": [{"op": "sum", "field": "CountForRanking", "as": "SearchCount"}],
+        "groupby": ["PieDivisions"]
+    },
+
+    {
+        "calculate": "upper(datum.PieDivisions[0]) + substring(datum.PieDivisions, 1)",
+        "as": "PieDivisionsFormatted"
+    },
+
+    {
+        "joinaggregate": [{"op": "sum", "field": "SearchCount", "as": "TotalCount"}]
+    },
+
+    {
+        "calculate": "round((datum.SearchCount/datum.TotalCount)*100) / 100", 
+        "as": "Percentage"
+    }
+],
+
+"encoding": {
+    "theta": {"field": "Percentage", "type": "quantitative", "stack": "center"},
+    "color": {
+        "field": "PieDivisionsFormatted",
+        "type": "nominal",
+        "scale": {
+            "domain": [
+                "Shorebird count area survey",
+                "500m area search",
+                "2ha 20 minute search",
+                "10 minute point count",                    
+                "Area search",
+                "Roost count",
+                "Individual roost surveys",
+                "Spotlighting on foot",
+                "Other"
+            ],
+            "range": [
+                "#80b1d3",
+                "#ffd92f",
+                "#fdb462",
+                "#fccde5",
+                "#ffffb3",
+                "#8dd3c7",
+                "#bebada",
+                "#b3de69",
+                "#969696"
+            ]
+        },
+        "legend": {
+            "title": "Search Types",
+            "orient": "none",
+            "legendX": 230, 
+            "legendY": 200
+        }
+    },
+
+    "order": {"field": "Percentage", "type":"quantitative", "sort": "descending"},
+
+    "tooltip": [
+        {"field": "PieDivisionsFormatted", "type": "nominal", "title": "Search type"},
+        {"field": "Percentage", "type": "quantitative", "format": ".2%", "title": "Percentage"},
+        {"field": "SearchCount", "type": "quantitative", "title": "Number of searches"}
+    ]    
+},
+
+"layer": [
+    {
+        "mark": {
+            "type": "arc",
+            "innerRadius": 200,
+            "outerRadius": 250
+        }      
+    },
+
+    {
+        "mark": {
+            "type": "text",
+            "radius": 315
+        },
+        "encoding": {
+            "text": {
+                "value": ["The most common", "survey type was", "for bird species"]
+            },
+            
+            "color": {"value": "black"},
+
+            "opacity": {
+                "condition": {
+                    "test": "datum.PieDivisionsFormatted == 'Shorebird count area survey'",
+                    "value": 1
+                },
+
+                "value": 0
+            }
+        }        
+    }
+]
+
+}

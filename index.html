@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Australia's Threatened Species</title>
+  <!-- Import Vega & Vega-Lite (does not have to be from CDN) -->
+  <script src="https://cdn.jsdelivr.net/npm/vega@5.20.2"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.1.0"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.17.0"></script>
+  
+  <!-- Import pure.css -->
+  <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/pure-min.css"
+    integrity="sha384-cg6SkqEOCV1NbJoCu11+bm0NvBRc8IYLRGXkmNrqUBfTjmMYwNKPWBTIKyw9mHNJ" crossorigin="anonymous">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Google font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
+  <!-- CSS file -->
+  <link rel="stylesheet" type="text/css" href="styles.css" media="all">
+
+</head>
+
+<body>
+  <div class="page">
+
+  <div class="row title-row">
+      <h2>Australia's Threatened Species</h2>
+  </div>
+
+    <!-- row: TSAP and TSX maps -->
+    <div class="row">
+      <div class="col">
+        <div id="TSAP_MAP" class="card"></div>
+      </div>
+
+      <div class="col">
+        <div id="TSX_MAP" class="card"></div>
+      </div>
+    </div>
+
+    <!-- row: text for TSAP and TSX maps -->
+    <div class="row">
+      <div class="col">
+        <div class="text-card">
+        <p>
+        The Australian Government's Department of Climate Change, Energy,
+        the Environment, and Water (DCCEW) published the Threatened Species
+        Action Plan (TSAP) 2022-2032 in 2022, detailling their strategies for 
+        the recovery of a number of threatened species across Australia. 
+        This map visualises areas where these species, known as priority species,
+        had been observed or were known to be likely to occur as of 2022. 
+        </p>
+
+        <p>
+        Note that certain areas are spread across Australia- click on one to see what
+        parts of Australia it covers. It can be observed that threatened species are more
+        diverse along coastlines. There are less in the centre of Australia, which makes
+        sense given the harsher climate.
+        </p>
+        </div> 
+      </div>
+
+      <div class="col">
+        <div class="text-card">
+        <p>
+        The Threatened Species Index (TSX) is a TERN project combining monitoring data 
+        from over 230 different sources. This map shows the centres of IBRA subregions 
+        where monitoring sites were located- these regions are classified based on common 
+        factors like climate, geography, and vegetation. 
+        </p>
+        <p>
+        Each monitoring site records data for one threatened species, these species can be 
+        classified by taxonomic group into <b>Amphibians</b>, <b>Birds</b>, <b>Mammals</b> and <b>Plants</b>. It can be 
+        seen that <b>Birds</b> are the most common taxonomic group to be monitored, with <b>Mammals</b> as 
+        the second most common and <b>Amphibians</b> and <b>Plants</b> roughly equal. 
+        </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- row: TSAP heatmap and TSX time series -->
+    <div class="row">
+      <div class="col">
+        <div id="TSAP_ADJACENCY" class="card"></div>
+      </div>
+
+      <div class="col">
+        <div id="TSX_TIME_SERIES" class="card"></div>
+      </div>
+    </div>
+
+    <!-- row: text for TSAP heatmap and TSX time series -->
+    <div class="row">
+      <div class="col">
+        <div class="text-card">
+        <p>
+        The heatmap above shows how often the most common 20 TSAP species were observed together.
+        White squares indicate when species never occurred together. Along the diagonal,
+        grey squares count how many total areas a species was observed in- hover over them to see the exact value.   
+        </p>
+
+        <p>
+        Interestingly, <b>Australian Bitterns</b> observed in at least 1 area with every other one
+        of the most common 20 species. On the other side of the scale, <b>Carnaby's Black Cockatoo</b> was
+        rarely observed with the other species here. It is quite possible that it co-occurred with 
+        species that were not among the 20 most common. 
+
+        </p>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="text-card">
+        <p>
+        The TSX collates records of abundance for each species to determine the change in 
+        their population over time. Data for each year represents the change in population
+        since the last year, with the reference value 1 being the abundance in the first 
+        recorded year, 1985.
+        </p>
+
+        <p>
+        It can be observed that <b>Amphibians</b> experienced the most rapid decline in population.
+        While the other taxonomic groups largely only declined in population, <b>Mammals</b> actually 
+        experienced some reasonable increases in the early year. Despite this, populations of all
+        species reduced by as much as 40% of their original values by 2021.
+        </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- row: TSX stacked bar chart and small multiples charts-->
+    <div class="row">
+      <div class="col">
+        <div id="TSX_STACKED_BAR" class="card"></div>
+      </div>
+
+      <div class="col">
+        <div id="TSX_SMALL_MULTIPLES" class="card"></div>
+      </div>
+    </div>
+
+    <!-- row: text for TSX stacked bar chart and small multiples charts -->
+    <div class="row">
+      <div class="col">
+        <div class="text-card">
+        <p>
+        Australia's States and Territories seem to be managing their endangered species roughly equally effectively. 
+        While the <b> Australian Capital Territory</b> has a very small percentage of <b>Critically Endangered</b> species, this
+        is likely due to its small size meaning that fewer species are at risk there. Of the other States
+        and Territories, the <b>Northern Territory</b> stands out with only 3.73% of species <b>Critically Endangered</b>- its larger size
+        means this is likely indicative of good management strategies. 
+        </p>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="text-card">
+        <p>
+       It can be seen above that <b>Amphibians</b> have by far the greatest proportion of <b>Critically Endangered</b>
+       species. This aligns with the above time series, which shows the rapid decline in
+       <b>Amphibian</b> abundance. The other taxonomic groups have roughly equivalent proportions of each Endangered
+       status (with a few exceptions). 
+      </p>  
+
+       <p>     
+       Notably, even though the TSX map shows that there are a significant number
+       of monitoring sites for <b>Birds</b>, approximately 60% of them were only <b>Near Threatened</b>
+       or <b>Vulnerable</b>.
+      </p>
+
+      </div>
+      </div>
+    </div>
+
+    <!-- row: TSX pie and beeswarm charts-->
+    <div class="row">
+      <div class="col">
+        <div id="TSX_PIE" class="card"></div>
+      </div>
+
+      <div class="col">
+        <div id="TSX_BEESWARM" class="card"></div>
+      </div>
+    </div>
+
+    <!-- row: text for TSX pie and beeswarm charts -->
+    <div class="row">
+      <div class="col">
+        <div class="text-card">
+        <p>
+        A wide variety of survey types were performed across the monitoring sites of the TSX. Some of the <b>Other</b> approaches
+        included 'Live trapping', 'Fixed route search' and 'Total count'. Given that the TSX collates information across sources,
+        this variety makes sense as different sources would have different naming conventions. 
+        </p>
+        <p>
+        Notably, three of the the eight most common survey types were specifically for birds- <b>Shorebird count area survey</b>,
+        <b>Roost count</b>, and <b>Individual roost surveys</b>. This aligns with the significant number of monitoring sites for birds, as seen on
+        the TSX map. 
+        </p>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="text-card">
+        <p>
+        Counts above 200 were clipped to 200 here, as this still allowed 89.7% of values to be shown properly, and prevented compression
+        from outliers in the thousands. It can be seen that <b>National Priority</b> species did not necessarily
+        have more monitoring sites dedicated to them, nor did <b>Critically Endangered</b> species. 
+        </p>
+
+        <p>
+        It is important to note that number of monitoring sites does not necessarily indicate that a certain type of species are being
+        managed more effectively or thoroughly. Intangibles, like what sort of action was taken based off a certain site's results, are not 
+        recorded in this data. The number of sites alone does not entirely define effort put into managing species. 
+        </p>
+        </div>
+      </div>
+    </div>   
+
+
+  </div> 
+
+  <script type="text/javascript">
+    var tsap_map = "./tsap_map.json";
+    var tsx_map = "./tsx_map.json";
+    var tsap_adjacency = "./tsap_adjacency_matrix.json";
+    var tsx_time_series = "./tsx_time_series.json";
+    var tsx_stacked_bar = "./tsx_statuses_stacked_bar.json";
+    var tsx_small_multiples = "./tsx_small_multiples_bars.json";
+    var tsx_pie = "./tsx_pie.json"
+    var tsx_beeswarm = "./tsx_beeswarm.json"
+
+    vegaEmbed('#TSAP_MAP', tsap_map, { 
+      "actions": false,
+      tooltip: {theme: 'custom'}
+    })
+
+    vegaEmbed('#TSX_MAP', tsx_map, { 
+      "actions": false,
+      tooltip: {theme: 'custom'}
+    });
+
+    vegaEmbed('#TSAP_ADJACENCY', tsap_adjacency, { 
+      "actions": false,
+      tooltip: {theme: 'custom'}
+    });
+
+    vegaEmbed('#TSX_TIME_SERIES', tsx_time_series, { 
+      "actions": false,
+      tooltip: {theme: 'custom'}
+    });
+
+    vegaEmbed('#TSX_STACKED_BAR', tsx_stacked_bar, { 
+      "actions": false,
+      tooltip: {theme: 'custom'}
+    });
+
+    vegaEmbed('#TSX_SMALL_MULTIPLES', tsx_small_multiples, { 
+      "actions": false,
+      tooltip: {theme: 'custom'}
+    });
+
+    vegaEmbed('#TSX_PIE', tsx_pie, { 
+      "actions": false,
+      tooltip: {theme: 'custom'}
+    });
+
+    vegaEmbed('#TSX_BEESWARM', tsx_beeswarm, { 
+      "actions": false,
+      tooltip: {theme: 'custom'}
+    });
+
+  </script>
+</body>
+
+</html>

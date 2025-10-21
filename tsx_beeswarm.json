@@ -1,0 +1,156 @@
+{
+"$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+"width": "container",
+"height": "container",
+
+"title": "Monitoring sites by threatened status",
+
+"config": {
+    "title": {
+        "fontSize": 18,
+        "fontWeight":"bold"
+    },
+
+    "legend": {
+        "titleFontSize": 14,
+        "titleFontWeight": "bold",
+        "labelFontSize": 14
+    },
+
+    "axis": {
+        "labelFontSize": 12,   
+        "titleFontSize": 12,   
+        "titleFontWeight": "bold",
+        "labelFont": "Open Sans",
+        "titleFont": "Open Sans"
+    },
+
+    "view": {
+        "stroke": null
+    },
+
+    "text": {
+        "font": "Open Sans",
+        "fontSize": 12
+    }
+},
+
+"data": {"url": "https://raw.githubusercontent.com/L-u-c-a-s-C/FIT3179/refs/heads/main/tsx_no_time_series.csv"},
+
+"transform": [
+    {
+        "aggregate": [{"op": "count", "as": "SiteCount"}], 
+        "groupby": ["CommonName", "MaxStatus", "NationalPriorityTaxa"]
+    },
+
+    {
+        "calculate": "datum.MaxStatus == 'Near Threatened' ? 1 : datum.MaxStatus == 'Vulnerable' ? 2 : datum.MaxStatus == 'Endangered' ? 3 : datum.MaxStatus == 'Critically Endangered' ? 4 : 0",
+        "as": "StatusOrder"
+    },
+
+    {
+        "calculate": "datum.StatusOrder + (random() - 0.5) * 0.5",
+        "as": "x_jitter"
+    },
+
+    {
+        "calculate": "min(datum.SiteCount, 200)",
+        "as": "ClippedCount"
+
+    },
+
+    {
+        "calculate": "datum.NationalPriorityTaxa == 1 ? 'National Priority' : 'Other'",
+        "as": "PriorityLegend"
+    },
+
+    {
+        "calculate": "datum.NationalPriorityTaxa == 1 ? 'Yes' : 'No'",
+        "as": "PriorityYesOrNo"
+    }
+],
+
+"layer": [
+    {
+    "mark": {"type": "circle", "opacity": 0.5},
+
+    "encoding": {
+        "x": {
+
+            "field": "x_jitter",
+            "type": "quantitative",
+            "axis": {
+                "values": [1, 2, 3, 4],
+                "labelExpr": "['Near Threatened','Vulnerable','Endangered','Critically Endangered'][round(datum.value)-1]",
+                "title": null,
+                "labelAngle": -45
+            }
+        },
+
+        "y": {
+            "field": "ClippedCount", 
+            "type": "quantitative", 
+            "title": "Number of sites"
+        },
+
+        "color": {
+            "field": "PriorityLegend",
+            "type": "nominal",
+            "scale": {"domain": ["Other", "National Priority"], "range": ["#969696", "red"]},
+            "legend": {"title": null}
+        },
+
+        "opacity": {
+            "condition": {
+                "test": "datum.NationalPriorityTaxa == 1",
+                "value": 1
+            }
+        },
+
+        "tooltip": [
+            {"field": "CommonName", "type": "nominal", "title": "Species"},
+            {"field": "MaxStatus", "type": "nominal", "title": "Endangered status"},
+            {"field": "SiteCount", "type": "quantitative", "title": "Number of sites"},
+            {"field": "PriorityYesOrNo", "type": "nominal", "title": "Priority species?"}
+        ]
+    }
+    },
+
+    {
+    "data": {
+        "values": [
+        {"x": 1.15, "y": 185, "text": ["Counts above 200 have", "been clipped to 200"]}
+        ]
+    },
+
+    "mark": {
+        "type": "text"
+    },
+
+    "encoding": {
+        "x": {"field": "x", "type": "quantitative"},
+        "y": {"field": "y", "type": "quantitative"},
+        "text": {"field": "text", "type": "nominal"}
+    }
+    },
+
+    {
+    "data": {
+        "values": [{"x": 3.35, "y": 75, "text": ["National priority species do not", "necessarily have more sites"]}]
+    },
+
+    "mark": {
+        "type": "text"
+    },
+
+    "encoding": {
+        "x": {"field": "x", "type": "quantitative"},
+        "y": {"field": "y", "type": "quantitative"},
+        "text": {"field": "text", "type": "nominal"}
+    }
+    }
+
+]
+
+}
+

@@ -1,0 +1,226 @@
+{
+"$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+"width": 560,
+"height": "container",
+
+"title": {
+    "text": "Proportional Abundance Over Time",
+    "offset": -28
+},
+
+"config": {
+    "title": {
+        "fontSize": 18,
+        "fontWeight":"bold"
+    },
+
+    "legend": {
+        "titleFontSize": 14,
+        "titleFontWeight": "bold",
+        "labelFontSize": 14
+    },
+
+    "axis": {
+        "labelFontSize": 12,   
+        "titleFontSize": 12,   
+        "titleFontWeight": "bold",
+        "labelFont": "Open Sans",
+        "titleFont": "Open Sans"
+    },
+
+    "view": {
+        "stroke": null
+    },
+
+    "text": {
+        "font": "Open Sans",
+        "fontSize": 12
+    }
+},
+
+"data": {"url": "https://raw.githubusercontent.com/L-u-c-a-s-C/FIT3179/refs/heads/main/tsx_time_series_data.csv"},
+
+"params": [
+    { 
+    "name": "TaxonomicFilter",
+    "bind": {
+        "input": "select",
+        "options": [
+            null,
+            "Birds",
+            "Mammals",
+            "Plants",
+            "Amphibians"
+        ],
+
+        "labels": [
+            "All",
+            "Birds",
+            "Mammals",
+            "Plants",
+            "Amphibians"
+        ],
+
+        "name": "Select taxonomic group: "
+    }
+    }
+],
+
+"encoding": {
+    "x": {
+        "field": "year",
+        "type":"quantitative",
+        "axis": {
+            "format": "d",
+            "tickCount": 11
+        },
+        "title": null
+    },
+
+    "y": {
+        "field": "value",
+        "type": "quantitative",
+        "title": null
+    },
+
+    "color": {
+        "field": "TaxonomicGroup",
+
+        "scale": {
+            "domain": [
+                "Birds",
+                "Mammals",
+                "Plants",
+                "Amphibians"
+            ],
+
+            "range": [
+                "#984ea3",
+                "#e41a1c",
+                "#4daf4a",
+                "#377eb8"
+            ]
+        },        
+        "legend": {
+            "title": null,
+            "offset": -100
+        }
+
+    },
+
+    "tooltip": [
+        {"field": "TaxonomicGroup", "type": "nominal", "title": "Taxonomic Group"},
+        {"field": "year", "type": "quantitative", "title": "Year"},
+        {"field": "value", "type": "quantitative", "title": "Proportional Abundance", "format": ".2"}
+    ]
+},
+
+"layer": [
+    {
+        "mark": {"type": "line"},
+        "transform": [
+            {"filter": "datum.TaxonomicGroup != 'All'"},
+            {"filter": "TaxonomicFilter == null || datum.TaxonomicGroup == TaxonomicFilter"}
+        ]
+    },  
+
+    {
+        "mark": {"type": "circle"},
+        "transform": [
+            {"filter": "datum.TaxonomicGroup != 'All'"},
+            {"filter": "TaxonomicFilter == null || datum.TaxonomicGroup == TaxonomicFilter"}
+        ]
+    },
+
+    {
+        "mark": {
+            "type": "text",
+            "dy": -85
+        },
+        "encoding": {
+            "text": {
+                "value": ["Birds experienced", "a consistent", "downwards trend"]
+            },
+            
+            "color": {"value": "#984ea3"},
+
+            "opacity": {
+                "condition": {
+                    "test": "datum.year == 2010 && datum.TaxonomicGroup == 'Birds' && (TaxonomicFilter == null || TaxonomicFilter == 'Birds')",
+                    "value": 1
+                },
+
+                "value": 0
+            }
+        }        
+    },
+
+    {
+        "mark": {
+            "type": "text",
+            "dx": 90,
+            "dy": -10
+        },
+        "encoding": {
+            "text": {"value": ["Mammals were the only group to spike", "significantly before declining"]},
+            "color": {"value": "#e41a1c"},
+            "opacity": {
+                "condition": {
+                    "test": "datum.year == 1987 && datum.TaxonomicGroup == 'Mammals' && (TaxonomicFilter == null || TaxonomicFilter == 'Mammals')",
+                    "value": 1
+                },
+
+                "value": 0
+            }
+        }        
+    },
+
+    {
+    "mark": {
+        "type": "text",
+        "dy": 50
+    },
+    "encoding": {
+        "text": {
+            "value": ["At first, plants almost", "returned to their", "initial abundance"]
+        },
+        
+        "color": {"value": "#4daf4a"},
+
+        "opacity": {
+            "condition": {
+                "test": "datum.year == 1994 && datum.TaxonomicGroup == 'Plants' && (TaxonomicFilter == null || TaxonomicFilter == 'Plants')",
+                "value": 1
+            },
+
+            "value": 0
+        }
+    }        
+    },
+
+    {
+        "mark": {
+            "type": "text",
+            "dx": 100,
+            "dy": -22
+        },
+        "encoding": {
+            "text": {
+                "value": ["After only 10 years, Amphibians had declined", "to ~10% of their initial abundance"]
+            },
+            
+            "color": {"value": "#377eb8"},
+            "opacity": {
+                "condition": {
+                    "test": "datum.year == 1997 && datum.TaxonomicGroup == 'Amphibians' && (TaxonomicFilter == null || TaxonomicFilter == 'Amphibians')",
+                    "value": 1
+                },
+
+                "value": 0
+            }
+        }        
+    }
+
+]
+
+}

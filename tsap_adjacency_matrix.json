@@ -1,0 +1,98 @@
+{
+"$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+"width":  "container",
+"height": "container",
+
+"title": "Which species were most often observed together?",
+
+"config": {
+    "title": {
+        "fontSize": 18,
+        "fontWeight":"bold"
+    },
+
+    "legend": {
+        "titleFontSize": 14,
+        "titleFontWeight": "bold",
+        "labelFontSize": 14,
+        "orient": "left"
+    },
+
+    "axis": {
+        "labelFontSize": 12,   
+        "titleFontSize": 12,   
+        "titleFontWeight": "bold",
+        "labelFont": "Open Sans",
+        "titleFont": "Open Sans"
+    },
+
+    "view": {
+        "stroke": "black"
+    }
+},
+
+"data": {"url": "https://raw.githubusercontent.com/L-u-c-a-s-C/FIT3179/refs/heads/main/tsap_cooccurrences.csv"},
+
+"transform": [
+    {
+        "calculate": "datum.Species1 == datum.Species2 ? 0 : datum.Count",
+        "as": "CountExcludeSame"
+    },
+
+    {
+        "calculate": "datum.Species1 === datum.Species2 ? datum.Species1 : datum.Species1 + ', ' + datum.Species2",
+        "as": "TooltipSpecies"
+    },
+
+    {
+        "calculate": "datum.Species1 === datum.Species2 ? 'Total count' : 'Co-occurrences'",
+        "as": "TooltipLabel"
+    }
+],
+
+"mark": "rect",
+
+"encoding": {
+    "x": {
+        "field": "Species1", 
+        "type": "nominal", 
+        "title": null,
+
+        "axis": {
+            "labelAngle": -30,
+            "labelSeparation": 5
+        }
+    },
+
+    "y": {
+        "field": "Species2", 
+        "type": "nominal", 
+        "title": null,
+
+        "axis": {
+            "orient":"right"
+        }
+    },
+
+    "color": {
+        "condition": [
+            {
+                "test": "datum.Species1 == datum.Species2",
+                "value": "#cccccc"
+            }
+        ],
+
+        "field": "CountExcludeSame", 
+        "type": "quantitative",
+
+        "legend": {"title": "Count"}
+    },
+
+    "tooltip": [
+        {"field": "TooltipSpecies", "type": "nominal", "title": "Species"},
+        {"field": "TooltipLabel", "type": "nominal", "title": "Metric"},
+        {"field": "Count", "type": "quantitative"}
+    ]
+}
+
+}
