@@ -221,6 +221,42 @@
     </div>   
 
 
+    <!-- References Section -->
+    <div class="row">
+      <div class="col">
+        <div class="reference-section">
+          <p><strong>References:</strong></p>
+          <p>
+            1. Department of Climate Change, Energy, the Environment & Water. fed.dcceew.gov.au. Accessed Oct 5, 2025 [Online]. Available: 
+            <a href="https://fed.dcceew.gov.au/datasets/9655d0cbee2c41b39983850429c81414_0/explore?location=-21.029610%2C-36.994370%2C4.04">
+              https://fed.dcceew.gov.au/datasets/9655d0cbee2c41b39983850429c81414_0/explore?location=-21.029610%2C-36.994370%2C4.04
+            </a>
+          </p>
+          <p>
+            2. Threatened Species Index. tsx.org.au. Accessed Oct 5, 2025 [Online]. Available: 
+            <a href="https://tsx.org.au/tsx2024/?type=all&tgroup=All&group=All&subgroup=All&state=All&statusauth=Max&status=NT_VU_EN_CR&management=All&refyear=1985">
+              https://tsx.org.au/tsx2024/?type=all&tgroup=All&group=All&subgroup=All&state=All&statusauth=Max&status=NT_VU_EN_CR&management=All&refyear=1985
+            </a>
+          </p>
+          <p>
+            3. Australian Bureau of Statistics. abs.gov.au. Accessed Oct 5, 2025 [Online]. Available: 
+            <a href="https://www.abs.gov.au/statistics/statistical-geography/australian-statistical-geography-standard-asgs">
+              https://www.abs.gov.au/statistics/statistical-geography/australian-statistical-geography-standard-asgs
+            </a>
+          </p>
+
+          <p><strong>Mapshaper</strong> (https://mapshaper.org/) was used to simplify Natural Earth data, and clip all geographical data to focus on just Australia’s main landmass.</p>
+
+          <p><strong>Data Transformations (outside of Vegalite):</strong><br>
+          Only the first common name of each species in the DCCEEW map data was kept.<br>
+          Python was used to parse the TSX csv and determine where co-occurrences between species occurred (for the heatmap).</p>
+
+          <p><strong>Acknowledgement of Generative AI use:</strong><br>
+          ChatGPT was used to aid in debugging Vegalite, CSS and HTML code. It provided suggestions for syntax correction, error identification, and implementation of certain features. It also supplied Python scripts to transform data.</p>
+        </div>
+      </div>
+    </div>
+
   </div> 
 
   <script type="text/javascript">
